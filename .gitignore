@@ -1,0 +1,13 @@
+# Clés API (ne jamais publier)
+.env
+Elevenlabs api key
+kie ai api
+
+# Dépendances et rendus (régénérables)
+node_modules/
+out/
+*.remotion-in-progress
+
+# Médias bruts et vidéo de référence d'un autre créateur
+source/
+video_*.mp4

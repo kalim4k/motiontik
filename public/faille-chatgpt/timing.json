@@ -1,0 +1,475 @@
+{
+  "duration": 25.495,
+  "words": [
+    {
+      "text": "Voici",
+      "start": 0,
+      "end": 0.395
+    },
+    {
+      "text": "une",
+      "start": 0.441,
+      "end": 0.522
+    },
+    {
+      "text": "faille",
+      "start": 0.546,
+      "end": 0.755
+    },
+    {
+      "text": "de",
+      "start": 0.778,
+      "end": 0.871
+    },
+    {
+      "text": "ChatGPT",
+      "start": 0.929,
+      "end": 1.428
+    },
+    {
+      "text": "que",
+      "start": 1.544,
+      "end": 1.625
+    },
+    {
+      "text": "tu",
+      "start": 1.66,
+      "end": 1.765
+    },
+    {
+      "text": "peux",
+      "start": 1.811,
+      "end": 1.927
+    },
+    {
+      "text": "exploiter",
+      "start": 1.974,
+      "end": 2.508
+    },
+    {
+      "text": "pour",
+      "start": 2.554,
+      "end": 2.682
+    },
+    {
+      "text": "gagner",
+      "start": 2.717,
+      "end": 2.961
+    },
+    {
+      "text": "jusqu'à",
+      "start": 3.007,
+      "end": 3.344
+    },
+    {
+      "text": "cinq",
+      "start": 3.402,
+      "end": 3.622
+    },
+    {
+      "text": "mille",
+      "start": 3.68,
+      "end": 3.843
+    },
+    {
+      "text": "francs",
+      "start": 3.878,
+      "end": 4.063
+    },
+    {
+      "text": "par",
+      "start": 4.087,
+      "end": 4.238
+    },
+    {
+      "text": "jour.",
+      "start": 4.307,
+      "end": 4.586
+    },
+    {
+      "text": "Tu",
+      "start": 4.621,
+      "end": 4.772
+    },
+    {
+      "text": "auras",
+      "start": 4.795,
+      "end": 5.016
+    },
+    {
+      "text": "juste",
+      "start": 5.062,
+      "end": 5.352
+    },
+    {
+      "text": "besoin",
+      "start": 5.399,
+      "end": 5.619
+    },
+    {
+      "text": "du",
+      "start": 5.666,
+      "end": 5.735
+    },
+    {
+      "text": "Play",
+      "start": 5.77,
+      "end": 5.921
+    },
+    {
+      "text": "Store",
+      "start": 5.944,
+      "end": 6.142
+    },
+    {
+      "text": "sur",
+      "start": 6.165,
+      "end": 6.258
+    },
+    {
+      "text": "ton",
+      "start": 6.304,
+      "end": 6.409
+    },
+    {
+      "text": "téléphone.",
+      "start": 6.455,
+      "end": 6.966
+    },
+    {
+      "text": "Tu",
+      "start": 7.001,
+      "end": 7.198
+    },
+    {
+      "text": "cherches",
+      "start": 7.245,
+      "end": 7.605
+    },
+    {
+      "text": "sur",
+      "start": 7.628,
+      "end": 7.732
+    },
+    {
+      "text": "le",
+      "start": 7.767,
+      "end": 7.825
+    },
+    {
+      "text": "Play",
+      "start": 7.86,
+      "end": 8.022
+    },
+    {
+      "text": "Store",
+      "start": 8.046,
+      "end": 8.313
+    },
+    {
+      "text": "un",
+      "start": 8.348,
+      "end": 8.452
+    },
+    {
+      "text": "jeu",
+      "start": 8.522,
+      "end": 8.638
+    },
+    {
+      "text": "populaire,",
+      "start": 8.684,
+      "end": 9.172
+    },
+    {
+      "text": "avec",
+      "start": 9.23,
+      "end": 9.52
+    },
+    {
+      "text": "beaucoup",
+      "start": 9.578,
+      "end": 9.868
+    },
+    {
+      "text": "de",
+      "start": 9.903,
+      "end": 9.973
+    },
+    {
+      "text": "téléchargements.",
+      "start": 10.019,
+      "end": 10.797
+    },
+    {
+      "text": "Ensuite,",
+      "start": 10.82,
+      "end": 11.343
+    },
+    {
+      "text": "tu",
+      "start": 11.366,
+      "end": 11.471
+    },
+    {
+      "text": "demandes",
+      "start": 11.529,
+      "end": 11.842
+    },
+    {
+      "text": "à",
+      "start": 11.888,
+      "end": 11.935
+    },
+    {
+      "text": "ChatGPT",
+      "start": 12.028,
+      "end": 12.597
+    },
+    {
+      "text": "de",
+      "start": 12.713,
+      "end": 12.794
+    },
+    {
+      "text": "créer",
+      "start": 12.84,
+      "end": 13.073
+    },
+    {
+      "text": "le",
+      "start": 13.108,
+      "end": 13.2
+    },
+    {
+      "text": "même",
+      "start": 13.258,
+      "end": 13.467
+    },
+    {
+      "text": "type",
+      "start": 13.491,
+      "end": 13.711
+    },
+    {
+      "text": "de",
+      "start": 13.734,
+      "end": 13.816
+    },
+    {
+      "text": "jeu,",
+      "start": 13.885,
+      "end": 14.094
+    },
+    {
+      "text": "avec",
+      "start": 14.129,
+      "end": 14.385
+    },
+    {
+      "text": "quelques",
+      "start": 14.408,
+      "end": 14.745
+    },
+    {
+      "text": "améliorations.",
+      "start": 14.803,
+      "end": 15.499
+    },
+    {
+      "text": "Enfin,",
+      "start": 15.534,
+      "end": 15.952
+    },
+    {
+      "text": "tu",
+      "start": 15.998,
+      "end": 16.115
+    },
+    {
+      "text": "connectes",
+      "start": 16.184,
+      "end": 16.544
+    },
+    {
+      "text": "ton",
+      "start": 16.567,
+      "end": 16.672
+    },
+    {
+      "text": "jeu",
+      "start": 16.718,
+      "end": 16.834
+    },
+    {
+      "text": "à",
+      "start": 16.892,
+      "end": 16.916
+    },
+    {
+      "text": "Google",
+      "start": 16.974,
+      "end": 17.287
+    },
+    {
+      "text": "AdSense.",
+      "start": 17.322,
+      "end": 17.81
+    },
+    {
+      "text": "Ce",
+      "start": 17.879,
+      "end": 18.042
+    },
+    {
+      "text": "qui",
+      "start": 18.077,
+      "end": 18.158
+    },
+    {
+      "text": "va",
+      "start": 18.204,
+      "end": 18.286
+    },
+    {
+      "text": "te",
+      "start": 18.332,
+      "end": 18.413
+    },
+    {
+      "text": "permettre",
+      "start": 18.46,
+      "end": 18.82
+    },
+    {
+      "text": "de",
+      "start": 18.866,
+      "end": 18.936
+    },
+    {
+      "text": "gagner",
+      "start": 18.982,
+      "end": 19.238
+    },
+    {
+      "text": "de",
+      "start": 19.272,
+      "end": 19.342
+    },
+    {
+      "text": "l'argent",
+      "start": 19.389,
+      "end": 19.714
+    },
+    {
+      "text": "à",
+      "start": 19.772,
+      "end": 19.806
+    },
+    {
+      "text": "chaque",
+      "start": 19.899,
+      "end": 20.178
+    },
+    {
+      "text": "fois",
+      "start": 20.201,
+      "end": 20.352
+    },
+    {
+      "text": "que",
+      "start": 20.375,
+      "end": 20.457
+    },
+    {
+      "text": "les",
+      "start": 20.491,
+      "end": 20.584
+    },
+    {
+      "text": "gens",
+      "start": 20.608,
+      "end": 20.77
+    },
+    {
+      "text": "jouent",
+      "start": 20.805,
+      "end": 21.014
+    },
+    {
+      "text": "à",
+      "start": 21.06,
+      "end": 21.084
+    },
+    {
+      "text": "ton",
+      "start": 21.13,
+      "end": 21.258
+    },
+    {
+      "text": "jeu.",
+      "start": 21.316,
+      "end": 21.548
+    },
+    {
+      "text": "Bref,",
+      "start": 21.583,
+      "end": 21.943
+    },
+    {
+      "text": "si",
+      "start": 21.989,
+      "end": 22.105
+    },
+    {
+      "text": "tu",
+      "start": 22.163,
+      "end": 22.256
+    },
+    {
+      "text": "es",
+      "start": 22.28,
+      "end": 22.326
+    },
+    {
+      "text": "intéressé",
+      "start": 22.384,
+      "end": 22.802
+    },
+    {
+      "text": "par",
+      "start": 22.848,
+      "end": 22.965
+    },
+    {
+      "text": "ce",
+      "start": 23.011,
+      "end": 23.092
+    },
+    {
+      "text": "business,",
+      "start": 23.15,
+      "end": 23.591
+    },
+    {
+      "text": "tape",
+      "start": 23.638,
+      "end": 23.94
+    },
+    {
+      "text": "« business »",
+      "start": 24.137,
+      "end": 24.567
+    },
+    {
+      "text": "en",
+      "start": 24.648,
+      "end": 24.764
+    },
+    {
+      "text": "commentaire.",
+      "start": 24.81,
+      "end": 25.495
+    }
+  ]
+}

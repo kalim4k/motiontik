@@ -1,0 +1,14 @@
+{
+  "defaultVoiceId": "gbg1R47wkzFfooqRW2ut",
+  "modelId": "eleven_multilingual_v2",
+  "voiceSettings": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3,
+    "use_speaker_boost": true,
+    "speed": 1.05
+  },
+  "flow": {
+    "sentencePause": 0.45
+  }
+}

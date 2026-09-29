@@ -1,0 +1,550 @@
+{
+  "duration": 28.143,
+  "words": [
+    {
+      "text": "Tu",
+      "start": 0,
+      "end": 0.139
+    },
+    {
+      "text": "peux",
+      "start": 0.186,
+      "end": 0.313
+    },
+    {
+      "text": "créer",
+      "start": 0.337,
+      "end": 0.546
+    },
+    {
+      "text": "ton",
+      "start": 0.615,
+      "end": 0.72
+    },
+    {
+      "text": "premier",
+      "start": 0.766,
+      "end": 0.975
+    },
+    {
+      "text": "produit",
+      "start": 1.01,
+      "end": 1.219
+    },
+    {
+      "text": "digital",
+      "start": 1.242,
+      "end": 1.544
+    },
+    {
+      "text": "ce",
+      "start": 1.567,
+      "end": 1.66
+    },
+    {
+      "text": "soir,",
+      "start": 1.695,
+      "end": 2.02
+    },
+    {
+      "text": "avec",
+      "start": 2.067,
+      "end": 2.287
+    },
+    {
+      "text": "juste",
+      "start": 2.334,
+      "end": 2.577
+    },
+    {
+      "text": "ton",
+      "start": 2.612,
+      "end": 2.728
+    },
+    {
+      "text": "téléphone.",
+      "start": 2.775,
+      "end": 3.193
+    },
+    {
+      "text": "Étape",
+      "start": 3.216,
+      "end": 3.541
+    },
+    {
+      "text": "un :",
+      "start": 3.599,
+      "end": 3.68
+    },
+    {
+      "text": "choisis",
+      "start": 3.831,
+      "end": 4.098
+    },
+    {
+      "text": "un",
+      "start": 4.122,
+      "end": 4.168
+    },
+    {
+      "text": "problème",
+      "start": 4.214,
+      "end": 4.493
+    },
+    {
+      "text": "que",
+      "start": 4.516,
+      "end": 4.609
+    },
+    {
+      "text": "tu",
+      "start": 4.644,
+      "end": 4.702
+    },
+    {
+      "text": "sais",
+      "start": 4.748,
+      "end": 4.888
+    },
+    {
+      "text": "déjà",
+      "start": 4.923,
+      "end": 5.166
+    },
+    {
+      "text": "résoudre.",
+      "start": 5.19,
+      "end": 5.538
+    },
+    {
+      "text": "Cuisine,",
+      "start": 5.561,
+      "end": 5.968
+    },
+    {
+      "text": "business,",
+      "start": 6.026,
+      "end": 6.478
+    },
+    {
+      "text": "études…",
+      "start": 6.536,
+      "end": 7.001
+    },
+    {
+      "text": "peu",
+      "start": 7.036,
+      "end": 7.14
+    },
+    {
+      "text": "importe.",
+      "start": 7.163,
+      "end": 7.488
+    },
+    {
+      "text": "Étape",
+      "start": 7.523,
+      "end": 7.825
+    },
+    {
+      "text": "deux :",
+      "start": 7.848,
+      "end": 7.988
+    },
+    {
+      "text": "ouvre",
+      "start": 8.092,
+      "end": 8.336
+    },
+    {
+      "text": "Claude,",
+      "start": 8.382,
+      "end": 8.649
+    },
+    {
+      "text": "et",
+      "start": 8.673,
+      "end": 8.777
+    },
+    {
+      "text": "demande-lui",
+      "start": 8.824,
+      "end": 9.311
+    },
+    {
+      "text": "de",
+      "start": 9.392,
+      "end": 9.462
+    },
+    {
+      "text": "t'aider",
+      "start": 9.52,
+      "end": 9.822
+    },
+    {
+      "text": "à",
+      "start": 9.903,
+      "end": 9.961
+    },
+    {
+      "text": "transformer",
+      "start": 10.031,
+      "end": 10.425
+    },
+    {
+      "text": "ce",
+      "start": 10.449,
+      "end": 10.518
+    },
+    {
+      "text": "que",
+      "start": 10.565,
+      "end": 10.646
+    },
+    {
+      "text": "tu",
+      "start": 10.681,
+      "end": 10.762
+    },
+    {
+      "text": "sais",
+      "start": 10.82,
+      "end": 11.018
+    },
+    {
+      "text": "en",
+      "start": 11.052,
+      "end": 11.157
+    },
+    {
+      "text": "guide",
+      "start": 11.215,
+      "end": 11.389
+    },
+    {
+      "text": "PDF :",
+      "start": 11.424,
+      "end": 11.819
+    },
+    {
+      "text": "le",
+      "start": 11.981,
+      "end": 12.074
+    },
+    {
+      "text": "plan,",
+      "start": 12.132,
+      "end": 12.434
+    },
+    {
+      "text": "les",
+      "start": 12.504,
+      "end": 12.608
+    },
+    {
+      "text": "chapitres,",
+      "start": 12.631,
+      "end": 13.096
+    },
+    {
+      "text": "les",
+      "start": 13.154,
+      "end": 13.27
+    },
+    {
+      "text": "exemples.",
+      "start": 13.328,
+      "end": 13.676
+    },
+    {
+      "text": "Étape",
+      "start": 13.734,
+      "end": 14.048
+    },
+    {
+      "text": "trois :",
+      "start": 14.071,
+      "end": 14.292
+    },
+    {
+      "text": "crée",
+      "start": 14.408,
+      "end": 14.593
+    },
+    {
+      "text": "ta",
+      "start": 14.64,
+      "end": 14.721
+    },
+    {
+      "text": "boutique",
+      "start": 14.768,
+      "end": 15.081
+    },
+    {
+      "text": "gratuitement",
+      "start": 15.162,
+      "end": 15.673
+    },
+    {
+      "text": "sur",
+      "start": 15.743,
+      "end": 15.871
+    },
+    {
+      "text": "Chariow,",
+      "start": 15.905,
+      "end": 16.323
+    },
+    {
+      "text": "et",
+      "start": 16.37,
+      "end": 16.474
+    },
+    {
+      "text": "mets",
+      "start": 16.497,
+      "end": 16.637
+    },
+    {
+      "text": "ton",
+      "start": 16.66,
+      "end": 16.765
+    },
+    {
+      "text": "guide",
+      "start": 16.799,
+      "end": 16.962
+    },
+    {
+      "text": "en",
+      "start": 16.985,
+      "end": 17.032
+    },
+    {
+      "text": "vente.",
+      "start": 17.055,
+      "end": 17.217
+    },
+    {
+      "text": "Tes",
+      "start": 17.275,
+      "end": 17.391
+    },
+    {
+      "text": "clients",
+      "start": 17.426,
+      "end": 17.693
+    },
+    {
+      "text": "paient",
+      "start": 17.717,
+      "end": 17.891
+    },
+    {
+      "text": "par",
+      "start": 17.914,
+      "end": 18.053
+    },
+    {
+      "text": "Orange",
+      "start": 18.146,
+      "end": 18.436
+    },
+    {
+      "text": "Money,",
+      "start": 18.471,
+      "end": 18.843
+    },
+    {
+      "text": "Wave",
+      "start": 18.959,
+      "end": 19.319
+    },
+    {
+      "text": "ou",
+      "start": 19.365,
+      "end": 19.481
+    },
+    {
+      "text": "MTN,",
+      "start": 19.597,
+      "end": 20.108
+    },
+    {
+      "text": "et",
+      "start": 20.166,
+      "end": 20.259
+    },
+    {
+      "text": "reçoivent",
+      "start": 20.294,
+      "end": 20.666
+    },
+    {
+      "text": "le",
+      "start": 20.689,
+      "end": 20.747
+    },
+    {
+      "text": "guide",
+      "start": 20.793,
+      "end": 20.991
+    },
+    {
+      "text": "automatiquement.",
+      "start": 21.026,
+      "end": 21.722
+    },
+    {
+      "text": "Tu",
+      "start": 21.769,
+      "end": 21.873
+    },
+    {
+      "text": "le",
+      "start": 21.908,
+      "end": 21.966
+    },
+    {
+      "text": "crées",
+      "start": 22.001,
+      "end": 22.233
+    },
+    {
+      "text": "une",
+      "start": 22.268,
+      "end": 22.361
+    },
+    {
+      "text": "fois…",
+      "start": 22.407,
+      "end": 22.721
+    },
+    {
+      "text": "et",
+      "start": 22.744,
+      "end": 22.848
+    },
+    {
+      "text": "tu",
+      "start": 22.883,
+      "end": 22.965
+    },
+    {
+      "text": "peux",
+      "start": 23.034,
+      "end": 23.174
+    },
+    {
+      "text": "le",
+      "start": 23.197,
+      "end": 23.266
+    },
+    {
+      "text": "vendre",
+      "start": 23.313,
+      "end": 23.51
+    },
+    {
+      "text": "autant",
+      "start": 23.533,
+      "end": 23.812
+    },
+    {
+      "text": "de",
+      "start": 23.835,
+      "end": 23.882
+    },
+    {
+      "text": "fois",
+      "start": 23.928,
+      "end": 24.056
+    },
+    {
+      "text": "que",
+      "start": 24.079,
+      "end": 24.149
+    },
+    {
+      "text": "tu",
+      "start": 24.184,
+      "end": 24.253
+    },
+    {
+      "text": "veux.",
+      "start": 24.288,
+      "end": 24.462
+    },
+    {
+      "text": "Écris",
+      "start": 24.544,
+      "end": 24.857
+    },
+    {
+      "text": "« guide »",
+      "start": 25.02,
+      "end": 25.24
+    },
+    {
+      "text": "en",
+      "start": 25.31,
+      "end": 25.391
+    },
+    {
+      "text": "commentaire,",
+      "start": 25.437,
+      "end": 25.937
+    },
+    {
+      "text": "et",
+      "start": 25.972,
+      "end": 26.064
+    },
+    {
+      "text": "je",
+      "start": 26.111,
+      "end": 26.181
+    },
+    {
+      "text": "t'envoie",
+      "start": 26.25,
+      "end": 26.552
+    },
+    {
+      "text": "le",
+      "start": 26.587,
+      "end": 26.657
+    },
+    {
+      "text": "prompt",
+      "start": 26.715,
+      "end": 26.9
+    },
+    {
+      "text": "exact",
+      "start": 26.97,
+      "end": 27.272
+    },
+    {
+      "text": "à",
+      "start": 27.342,
+      "end": 27.376
+    },
+    {
+      "text": "donner",
+      "start": 27.446,
+      "end": 27.643
+    },
+    {
+      "text": "à",
+      "start": 27.69,
+      "end": 27.725
+    },
+    {
+      "text": "Claude.",
+      "start": 27.783,
+      "end": 28.143
+    }
+  ]
+}

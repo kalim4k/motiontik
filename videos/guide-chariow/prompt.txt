@@ -1,0 +1,17 @@
+PROMPT À COPIER DANS CLAUDE
+(remplace ce qui est entre crochets)
+
+Je veux créer un guide PDF à vendre en ligne.
+
+Mon sujet : [ce que tu sais faire, ex. : "réussir des gâteaux sans four", "trouver ses premiers clients en freelance", "réussir son BAC en sciences"]
+Pour qui : [ton client idéal, ex. : "étudiants au Bénin", "femmes qui veulent lancer un petit business à Abidjan"]
+Leur problème principal : [ce qui les bloque aujourd'hui]
+Ce que je sais et qu'ils ne savent pas : [ton expérience, tes astuces, tes résultats]
+
+Aide-moi à transformer ça en guide pratique, étape par étape :
+1. Propose-moi 5 titres accrocheurs et dis-moi lequel tu recommandes.
+2. Fais le plan complet : introduction, 5 à 7 chapitres, conclusion.
+3. Pour chaque chapitre : l'objectif, les points clés, un exemple concret adapté à l'Afrique de l'Ouest, et une petite action à faire.
+4. Pose-moi les questions dont tu as besoin pour que le guide contienne MON expérience, pas des généralités.
+5. Ensuite, rédige le guide chapitre par chapitre, dans un français simple et direct, en me demandant validation après chaque chapitre.
+6. À la fin, écris-moi une description de vente courte pour ma page produit Chariow et propose un prix adapté à mon public.

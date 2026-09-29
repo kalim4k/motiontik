@@ -1,0 +1,615 @@
+{
+  "duration": 29.722,
+  "words": [
+    {
+      "text": "Si",
+      "start": 0,
+      "end": 0.128
+    },
+    {
+      "text": "tu",
+      "start": 0.163,
+      "end": 0.244
+    },
+    {
+      "text": "es",
+      "start": 0.267,
+      "end": 0.337
+    },
+    {
+      "text": "au",
+      "start": 0.383,
+      "end": 0.441
+    },
+    {
+      "text": "Togo,",
+      "start": 0.534,
+      "end": 0.94
+    },
+    {
+      "text": "au",
+      "start": 0.964,
+      "end": 1.045
+    },
+    {
+      "text": "Bénin,",
+      "start": 1.115,
+      "end": 1.509
+    },
+    {
+      "text": "en",
+      "start": 1.533,
+      "end": 1.625
+    },
+    {
+      "text": "Côte",
+      "start": 1.66,
+      "end": 1.869
+    },
+    {
+      "text": "d'Ivoire…",
+      "start": 1.892,
+      "end": 2.357
+    },
+    {
+      "text": "bref,",
+      "start": 2.38,
+      "end": 2.752
+    },
+    {
+      "text": "en",
+      "start": 2.775,
+      "end": 2.926
+    },
+    {
+      "text": "Afrique :",
+      "start": 2.984,
+      "end": 3.274
+    },
+    {
+      "text": "tu",
+      "start": 3.379,
+      "end": 3.46
+    },
+    {
+      "text": "peux",
+      "start": 3.529,
+      "end": 3.669
+    },
+    {
+      "text": "utiliser",
+      "start": 3.692,
+      "end": 4.063
+    },
+    {
+      "text": "Claude",
+      "start": 4.11,
+      "end": 4.354
+    },
+    {
+      "text": "et",
+      "start": 4.4,
+      "end": 4.493
+    },
+    {
+      "text": "Google",
+      "start": 4.528,
+      "end": 4.899
+    },
+    {
+      "text": "pour",
+      "start": 4.934,
+      "end": 5.062
+    },
+    {
+      "text": "te",
+      "start": 5.12,
+      "end": 5.178
+    },
+    {
+      "text": "créer",
+      "start": 5.224,
+      "end": 5.468
+    },
+    {
+      "text": "une",
+      "start": 5.503,
+      "end": 5.666
+    },
+    {
+      "text": "source",
+      "start": 5.7,
+      "end": 5.968
+    },
+    {
+      "text": "de",
+      "start": 5.991,
+      "end": 6.06
+    },
+    {
+      "text": "revenus",
+      "start": 6.118,
+      "end": 6.455
+    },
+    {
+      "text": "en",
+      "start": 6.49,
+      "end": 6.606
+    },
+    {
+      "text": "ligne,",
+      "start": 6.629,
+      "end": 6.815
+    },
+    {
+      "text": "sans",
+      "start": 6.931,
+      "end": 7.129
+    },
+    {
+      "text": "rien",
+      "start": 7.152,
+      "end": 7.256
+    },
+    {
+      "text": "dépenser.",
+      "start": 7.303,
+      "end": 7.755
+    },
+    {
+      "text": "Voici",
+      "start": 7.79,
+      "end": 8.022
+    },
+    {
+      "text": "comment.",
+      "start": 8.069,
+      "end": 8.336
+    },
+    {
+      "text": "Tu",
+      "start": 8.382,
+      "end": 8.464
+    },
+    {
+      "text": "vas",
+      "start": 8.51,
+      "end": 8.638
+    },
+    {
+      "text": "sur",
+      "start": 8.661,
+      "end": 8.777
+    },
+    {
+      "text": "le",
+      "start": 8.8,
+      "end": 8.87
+    },
+    {
+      "text": "Play",
+      "start": 8.916,
+      "end": 9.067
+    },
+    {
+      "text": "Store,",
+      "start": 9.114,
+      "end": 9.381
+    },
+    {
+      "text": "et",
+      "start": 9.404,
+      "end": 9.485
+    },
+    {
+      "text": "tu",
+      "start": 9.509,
+      "end": 9.59
+    },
+    {
+      "text": "cherches",
+      "start": 9.625,
+      "end": 9.892
+    },
+    {
+      "text": "un",
+      "start": 9.927,
+      "end": 9.985
+    },
+    {
+      "text": "jeu",
+      "start": 10.055,
+      "end": 10.194
+    },
+    {
+      "text": "très",
+      "start": 10.275,
+      "end": 10.484
+    },
+    {
+      "text": "populaire,",
+      "start": 10.519,
+      "end": 11.007
+    },
+    {
+      "text": "avec",
+      "start": 11.053,
+      "end": 11.285
+    },
+    {
+      "text": "beaucoup",
+      "start": 11.401,
+      "end": 11.657
+    },
+    {
+      "text": "de",
+      "start": 11.703,
+      "end": 11.761
+    },
+    {
+      "text": "téléchargements.",
+      "start": 11.808,
+      "end": 12.446
+    },
+    {
+      "text": "Ensuite,",
+      "start": 12.47,
+      "end": 12.887
+    },
+    {
+      "text": "tu",
+      "start": 12.934,
+      "end": 13.015
+    },
+    {
+      "text": "vas",
+      "start": 13.05,
+      "end": 13.178
+    },
+    {
+      "text": "sur",
+      "start": 13.213,
+      "end": 13.352
+    },
+    {
+      "text": "Claude,",
+      "start": 13.41,
+      "end": 13.7
+    },
+    {
+      "text": "et",
+      "start": 13.723,
+      "end": 13.828
+    },
+    {
+      "text": "tu",
+      "start": 13.851,
+      "end": 13.932
+    },
+    {
+      "text": "lui",
+      "start": 13.979,
+      "end": 14.048
+    },
+    {
+      "text": "demandes",
+      "start": 14.107,
+      "end": 14.455
+    },
+    {
+      "text": "de",
+      "start": 14.49,
+      "end": 14.559
+    },
+    {
+      "text": "te",
+      "start": 14.606,
+      "end": 14.687
+    },
+    {
+      "text": "créer",
+      "start": 14.722,
+      "end": 14.989
+    },
+    {
+      "text": "un",
+      "start": 15.035,
+      "end": 15.105
+    },
+    {
+      "text": "jeu",
+      "start": 15.198,
+      "end": 15.349
+    },
+    {
+      "text": "inspiré",
+      "start": 15.407,
+      "end": 15.767
+    },
+    {
+      "text": "de",
+      "start": 15.802,
+      "end": 15.848
+    },
+    {
+      "text": "ce",
+      "start": 15.883,
+      "end": 15.964
+    },
+    {
+      "text": "concept,",
+      "start": 16.011,
+      "end": 16.347
+    },
+    {
+      "text": "avec",
+      "start": 16.382,
+      "end": 16.579
+    },
+    {
+      "text": "ta",
+      "start": 16.626,
+      "end": 16.707
+    },
+    {
+      "text": "propre",
+      "start": 16.765,
+      "end": 17.055
+    },
+    {
+      "text": "touche.",
+      "start": 17.102,
+      "end": 17.381
+    },
+    {
+      "text": "T'inquiète,",
+      "start": 17.439,
+      "end": 17.868
+    },
+    {
+      "text": "tu",
+      "start": 17.903,
+      "end": 17.961
+    },
+    {
+      "text": "n'auras",
+      "start": 18.007,
+      "end": 18.24
+    },
+    {
+      "text": "pas",
+      "start": 18.286,
+      "end": 18.425
+    },
+    {
+      "text": "besoin",
+      "start": 18.449,
+      "end": 18.681
+    },
+    {
+      "text": "de",
+      "start": 18.739,
+      "end": 18.809
+    },
+    {
+      "text": "coder.",
+      "start": 18.855,
+      "end": 19.157
+    },
+    {
+      "text": "Ensuite,",
+      "start": 19.18,
+      "end": 19.54
+    },
+    {
+      "text": "tu",
+      "start": 19.575,
+      "end": 19.668
+    },
+    {
+      "text": "mets",
+      "start": 19.714,
+      "end": 19.865
+    },
+    {
+      "text": "ton",
+      "start": 19.888,
+      "end": 20.039
+    },
+    {
+      "text": "jeu",
+      "start": 20.097,
+      "end": 20.225
+    },
+    {
+      "text": "en",
+      "start": 20.306,
+      "end": 20.422
+    },
+    {
+      "text": "ligne,",
+      "start": 20.469,
+      "end": 20.689
+    },
+    {
+      "text": "et",
+      "start": 20.724,
+      "end": 20.84
+    },
+    {
+      "text": "tu",
+      "start": 20.863,
+      "end": 20.956
+    },
+    {
+      "text": "le",
+      "start": 21.003,
+      "end": 21.061
+    },
+    {
+      "text": "connectes",
+      "start": 21.107,
+      "end": 21.409
+    },
+    {
+      "text": "à",
+      "start": 21.432,
+      "end": 21.467
+    },
+    {
+      "text": "Google",
+      "start": 21.525,
+      "end": 21.769
+    },
+    {
+      "text": "AdSense :",
+      "start": 21.815,
+      "end": 22.21
+    },
+    {
+      "text": "chaque",
+      "start": 22.326,
+      "end": 22.547
+    },
+    {
+      "text": "fois",
+      "start": 22.57,
+      "end": 22.674
+    },
+    {
+      "text": "que",
+      "start": 22.709,
+      "end": 22.802
+    },
+    {
+      "text": "des",
+      "start": 22.86,
+      "end": 22.965
+    },
+    {
+      "text": "gens",
+      "start": 23,
+      "end": 23.174
+    },
+    {
+      "text": "jouent,",
+      "start": 23.197,
+      "end": 23.487
+    },
+    {
+      "text": "les",
+      "start": 23.522,
+      "end": 23.626
+    },
+    {
+      "text": "pubs",
+      "start": 23.661,
+      "end": 23.905
+    },
+    {
+      "text": "te",
+      "start": 23.94,
+      "end": 24.033
+    },
+    {
+      "text": "rapportent",
+      "start": 24.068,
+      "end": 24.404
+    },
+    {
+      "text": "de",
+      "start": 24.52,
+      "end": 24.602
+    },
+    {
+      "text": "l'argent.",
+      "start": 24.637,
+      "end": 24.962
+    },
+    {
+      "text": "Alors",
+      "start": 24.996,
+      "end": 25.194
+    },
+    {
+      "text": "si",
+      "start": 25.217,
+      "end": 25.31
+    },
+    {
+      "text": "ce",
+      "start": 25.345,
+      "end": 25.426
+    },
+    {
+      "text": "business",
+      "start": 25.484,
+      "end": 25.751
+    },
+    {
+      "text": "t'intéresse,",
+      "start": 25.774,
+      "end": 26.297
+    },
+    {
+      "text": "tape",
+      "start": 26.32,
+      "end": 26.633
+    },
+    {
+      "text": "« jeu »",
+      "start": 26.854,
+      "end": 27.017
+    },
+    {
+      "text": "en",
+      "start": 27.156,
+      "end": 27.237
+    },
+    {
+      "text": "commentaire,",
+      "start": 27.284,
+      "end": 27.771
+    },
+    {
+      "text": "et",
+      "start": 27.806,
+      "end": 27.876
+    },
+    {
+      "text": "je",
+      "start": 27.922,
+      "end": 27.992
+    },
+    {
+      "text": "te",
+      "start": 28.05,
+      "end": 28.12
+    },
+    {
+      "text": "montre",
+      "start": 28.154,
+      "end": 28.352
+    },
+    {
+      "text": "exactement",
+      "start": 28.387,
+      "end": 28.932
+    },
+    {
+      "text": "comment",
+      "start": 28.979,
+      "end": 29.234
+    },
+    {
+      "text": "le",
+      "start": 29.257,
+      "end": 29.315
+    },
+    {
+      "text": "faire.",
+      "start": 29.373,
+      "end": 29.722
+    }
+  ]
+}

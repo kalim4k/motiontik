@@ -1,18 +1,19 @@
-import { loadFont as loadComicRelief } from "@remotion/google-fonts/ComicRelief";
-import { loadFont as loadGaegu } from "@remotion/google-fonts/Gaegu";
-import { loadFont as loadMali } from "@remotion/google-fonts/Mali";
-import { loadFont as loadShortStack } from "@remotion/google-fonts/ShortStack";
+import { getInfo as comicRelief } from "@remotion/google-fonts/ComicRelief";
+import { getInfo as gaegu } from "@remotion/google-fonts/Gaegu";
+import { getInfo as mali } from "@remotion/google-fonts/Mali";
+import { getInfo as shortStack } from "@remotion/google-fonts/ShortStack";
 import { AbsoluteFill, useCurrentFrame } from "remotion";
+import { loadLocalFont } from "../lib/fonts";
 import { comicFont, ComicCaptions, Ground, type Expression, type PoseName, StickMan, stick } from "../lib/Stick";
 
 // Planche de réglage du perso et des polices (pas une vidéo) : une image par frame.
 const fonts: [string, string, number][] = [
-  ["Comic Relief 700", loadComicRelief("normal", { weights: ["700"], subsets: ["latin"] }).fontFamily, 700],
+  ["Comic Relief 700", loadLocalFont(comicRelief, { weights: ["700"], subsets: ["latin"] }).fontFamily, 700],
   ["Comic Sans MS (Windows)", "Comic Sans MS", 700],
   ["Comic Neue 700", comicFont, 700],
-  ["Gaegu 700", loadGaegu("normal", { weights: ["700"], subsets: ["latin"] }).fontFamily, 700],
-  ["Mali 700", loadMali("normal", { weights: ["700"], subsets: ["latin"] }).fontFamily, 700],
-  ["Short Stack", loadShortStack("normal", { weights: ["400"], subsets: ["latin"] }).fontFamily, 400],
+  ["Gaegu 700", loadLocalFont(gaegu, { weights: ["700"], subsets: ["latin"] }).fontFamily, 700],
+  ["Mali 700", loadLocalFont(mali, { weights: ["700"], subsets: ["latin"] }).fontFamily, 700],
+  ["Short Stack", loadLocalFont(shortStack, { weights: ["400"], subsets: ["latin"] }).fontFamily, 400],
 ];
 
 const words = ["PLANTE", "UNE", "ESPÈCE", "VÉGÉTALE", "EN", "VOIE", "DE", "DISPARITION"].map((text, i) => ({

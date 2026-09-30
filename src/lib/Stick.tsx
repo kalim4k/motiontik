@@ -1,13 +1,14 @@
-import { loadFont } from "@remotion/google-fonts/ComicNeue";
-import { loadFont as loadComicRelief } from "@remotion/google-fonts/ComicRelief";
+import { getInfo as comicNeue } from "@remotion/google-fonts/ComicNeue";
+import { getInfo as comicRelief } from "@remotion/google-fonts/ComicRelief";
 import { useAudioData, visualizeAudio } from "@remotion/media-utils";
 import { AbsoluteFill, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { clamp } from "./ease";
+import { loadLocalFont } from "./fonts";
 import type { Word } from "./timing";
 
-export const { fontFamily: comicFont } = loadFont("normal", { weights: ["700"], subsets: ["latin"] });
+export const { fontFamily: comicFont } = loadLocalFont(comicNeue, { weights: ["700"], subsets: ["latin"] });
 /** Police des sous-titres, la plus proche de la réf (lettrage BD type Comic Sans gras). */
-export const { fontFamily: captionFont } = loadComicRelief("normal", { weights: ["700"], subsets: ["latin"] });
+export const { fontFamily: captionFont } = loadLocalFont(comicRelief, { weights: ["700"], subsets: ["latin"] });
 
 /** Palette du style « bonhomme bâton » (réf. vidéo L'ennemi public). */
 export const stick = {

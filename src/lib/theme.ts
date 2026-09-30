@@ -1,6 +1,7 @@
-import { loadFont } from "@remotion/google-fonts/InterTight";
+import { getInfo } from "@remotion/google-fonts/InterTight";
+import { loadLocalFont } from "./fonts";
 
-export const { fontFamily } = loadFont("normal", {
+export const { fontFamily } = loadLocalFont(getInfo, {
   weights: ["500", "700", "800", "900"],
   subsets: ["latin", "latin-ext"],
 });

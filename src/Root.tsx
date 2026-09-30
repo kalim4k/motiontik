@@ -9,6 +9,7 @@ import { Business500F } from "./videos/business-500f";
 import { FailleChatGPT } from "./videos/faille-chatgpt";
 import { PersoTest } from "./videos/perso-test";
 import { StickLab } from "./videos/stick-lab";
+import { ArnaqueLegale } from "./videos/arnaque-legale";
 
 // Une entrée par vidéo : slug (= dossier dans videos/ et public/) + composant
 // `extra` = secondes ajoutées à la durée de la voix (pauses insérées).
@@ -20,6 +21,7 @@ const videos: { slug: string; component: React.FC<VideoProps>; extra?: number }[
   { slug: "perso-test", component: PersoTest },
   { slug: "faille-chatgpt", component: FailleChatGPT },
   { slug: "business-500f", component: Business500F },
+  { slug: "arnaque-legale", component: ArnaqueLegale },
 ];
 
 export const Root: React.FC = () => (

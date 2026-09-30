@@ -1,0 +1,9 @@
+Ce jeu, tu le connais. Il est moche, il est simple… et il rapportait cinquante mille dollars par jour.
+Il s'appelle Flappy Bird. Il a été créé par un seul développeur, au Vietnam, en quelques jours.
+Pas de grosse équipe, pas de gros budget. Juste un oiseau, des tuyaux… et des pubs.
+Des millions de personnes y jouaient chaque jour, et à chaque partie, les pubs lui rapportaient de l'argent.
+À l'époque, il fallait savoir coder pour faire ça.
+Aujourd'hui, tu envoies une capture d'écran à Claude, et il te crée un jeu comme celui-là, pour toi.
+Tu le connectes à Google AdSense, et ce sont tes pubs qui tournent quand les gens jouent.
+Le prochain Flappy Bird, ça peut être le tien.
+Si tu veux la méthode, tape « jeu » en commentaire, et clique sur le lien dans ma bio.

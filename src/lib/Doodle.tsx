@@ -606,7 +606,7 @@ export const Hearts: React.FC<{ at: number; x: number; y: number; n?: number }> 
 };
 
 /** Drapeaux (proportions simplifiées) : Togo, Bénin, Côte d'Ivoire. */
-export type FlagName = "togo" | "benin" | "ci";
+export type FlagName = "togo" | "benin" | "ci" | "vietnam";
 // Fonctions (pas de JSX au niveau du module : le bundle Remotion n'a pas encore React à ce moment-là)
 const FLAGS: Record<FlagName, () => React.ReactNode> = {
   togo: () => (
@@ -630,6 +630,12 @@ const FLAGS: Record<FlagName, () => React.ReactNode> = {
       <rect x={0} y={0} width={100} height={200} fill="#f77f00" />
       <rect x={100} y={0} width={100} height={200} fill="#fff" />
       <rect x={200} y={0} width={100} height={200} fill="#009e60" />
+    </>
+  ),
+  vietnam: () => (
+    <>
+      <rect x={0} y={0} width={300} height={200} fill="#da251d" />
+      <path d="M150 45 L163 85 L205 85 L171 110 L184 150 L150 125 L116 150 L129 110 L95 85 L137 85 Z" fill="#ffcd00" />
     </>
   ),
 };

@@ -1,0 +1,705 @@
+{
+  "duration": 34.877,
+  "words": [
+    {
+      "text": "Ce",
+      "start": 0,
+      "end": 0.186
+    },
+    {
+      "text": "jeu,",
+      "start": 0.255,
+      "end": 0.464
+    },
+    {
+      "text": "tu",
+      "start": 0.522,
+      "end": 0.65
+    },
+    {
+      "text": "le",
+      "start": 0.708,
+      "end": 0.778
+    },
+    {
+      "text": "connais.",
+      "start": 0.824,
+      "end": 1.126
+    },
+    {
+      "text": "Il",
+      "start": 1.173,
+      "end": 1.3
+    },
+    {
+      "text": "est",
+      "start": 1.37,
+      "end": 1.44
+    },
+    {
+      "text": "moche,",
+      "start": 1.486,
+      "end": 1.788
+    },
+    {
+      "text": "il",
+      "start": 1.823,
+      "end": 1.95
+    },
+    {
+      "text": "est",
+      "start": 2.032,
+      "end": 2.101
+    },
+    {
+      "text": "simple…",
+      "start": 2.136,
+      "end": 2.566
+    },
+    {
+      "text": "et",
+      "start": 2.601,
+      "end": 2.682
+    },
+    {
+      "text": "il",
+      "start": 2.717,
+      "end": 2.798
+    },
+    {
+      "text": "rapportait",
+      "start": 2.868,
+      "end": 3.32
+    },
+    {
+      "text": "cinquante",
+      "start": 3.367,
+      "end": 3.785
+    },
+    {
+      "text": "mille",
+      "start": 3.808,
+      "end": 3.971
+    },
+    {
+      "text": "dollars",
+      "start": 3.994,
+      "end": 4.261
+    },
+    {
+      "text": "par",
+      "start": 4.284,
+      "end": 4.412
+    },
+    {
+      "text": "jour.",
+      "start": 4.47,
+      "end": 4.76
+    },
+    {
+      "text": "Il",
+      "start": 4.795,
+      "end": 4.911
+    },
+    {
+      "text": "s'appelle",
+      "start": 4.957,
+      "end": 5.271
+    },
+    {
+      "text": "Flappy",
+      "start": 5.317,
+      "end": 5.666
+    },
+    {
+      "text": "Bird.",
+      "start": 5.712,
+      "end": 6.002
+    },
+    {
+      "text": "Il",
+      "start": 6.037,
+      "end": 6.153
+    },
+    {
+      "text": "a",
+      "start": 6.2,
+      "end": 6.223
+    },
+    {
+      "text": "été",
+      "start": 6.316,
+      "end": 6.478
+    },
+    {
+      "text": "créé",
+      "start": 6.513,
+      "end": 6.745
+    },
+    {
+      "text": "par",
+      "start": 6.803,
+      "end": 6.954
+    },
+    {
+      "text": "un",
+      "start": 7.012,
+      "end": 7.059
+    },
+    {
+      "text": "seul",
+      "start": 7.117,
+      "end": 7.256
+    },
+    {
+      "text": "développeur,",
+      "start": 7.314,
+      "end": 7.872
+    },
+    {
+      "text": "au",
+      "start": 7.895,
+      "end": 7.988
+    },
+    {
+      "text": "Vietnam,",
+      "start": 8.022,
+      "end": 8.464
+    },
+    {
+      "text": "en",
+      "start": 8.487,
+      "end": 8.568
+    },
+    {
+      "text": "quelques",
+      "start": 8.626,
+      "end": 8.928
+    },
+    {
+      "text": "jours.",
+      "start": 8.951,
+      "end": 9.288
+    },
+    {
+      "text": "Pas",
+      "start": 9.311,
+      "end": 9.462
+    },
+    {
+      "text": "de",
+      "start": 9.497,
+      "end": 9.567
+    },
+    {
+      "text": "grosse",
+      "start": 9.613,
+      "end": 9.88
+    },
+    {
+      "text": "équipe,",
+      "start": 9.903,
+      "end": 10.263
+    },
+    {
+      "text": "pas",
+      "start": 10.286,
+      "end": 10.403
+    },
+    {
+      "text": "de",
+      "start": 10.438,
+      "end": 10.507
+    },
+    {
+      "text": "gros",
+      "start": 10.554,
+      "end": 10.728
+    },
+    {
+      "text": "budget.",
+      "start": 10.751,
+      "end": 11.134
+    },
+    {
+      "text": "Juste",
+      "start": 11.169,
+      "end": 11.483
+    },
+    {
+      "text": "un",
+      "start": 11.506,
+      "end": 11.564
+    },
+    {
+      "text": "oiseau,",
+      "start": 11.61,
+      "end": 11.947
+    },
+    {
+      "text": "des",
+      "start": 11.982,
+      "end": 12.086
+    },
+    {
+      "text": "tuyaux…",
+      "start": 12.11,
+      "end": 12.528
+    },
+    {
+      "text": "et",
+      "start": 12.551,
+      "end": 12.679
+    },
+    {
+      "text": "des",
+      "start": 12.725,
+      "end": 12.829
+    },
+    {
+      "text": "pubs.",
+      "start": 12.864,
+      "end": 13.178
+    },
+    {
+      "text": "Des",
+      "start": 13.201,
+      "end": 13.352
+    },
+    {
+      "text": "millions",
+      "start": 13.398,
+      "end": 13.782
+    },
+    {
+      "text": "de",
+      "start": 13.805,
+      "end": 13.863
+    },
+    {
+      "text": "personnes",
+      "start": 13.909,
+      "end": 14.281
+    },
+    {
+      "text": "y",
+      "start": 14.304,
+      "end": 14.35
+    },
+    {
+      "text": "jouaient",
+      "start": 14.466,
+      "end": 14.722
+    },
+    {
+      "text": "chaque",
+      "start": 14.757,
+      "end": 15.012
+    },
+    {
+      "text": "jour,",
+      "start": 15.035,
+      "end": 15.326
+    },
+    {
+      "text": "et",
+      "start": 15.349,
+      "end": 15.465
+    },
+    {
+      "text": "à",
+      "start": 15.5,
+      "end": 15.535
+    },
+    {
+      "text": "chaque",
+      "start": 15.593,
+      "end": 15.836
+    },
+    {
+      "text": "partie,",
+      "start": 15.86,
+      "end": 16.231
+    },
+    {
+      "text": "les",
+      "start": 16.312,
+      "end": 16.463
+    },
+    {
+      "text": "pubs",
+      "start": 16.498,
+      "end": 16.754
+    },
+    {
+      "text": "lui",
+      "start": 16.777,
+      "end": 16.87
+    },
+    {
+      "text": "rapportaient",
+      "start": 16.928,
+      "end": 17.404
+    },
+    {
+      "text": "de",
+      "start": 17.427,
+      "end": 17.485
+    },
+    {
+      "text": "l'argent.",
+      "start": 17.532,
+      "end": 17.926
+    },
+    {
+      "text": "À",
+      "start": 17.949,
+      "end": 17.996
+    },
+    {
+      "text": "l'époque,",
+      "start": 18.077,
+      "end": 18.495
+    },
+    {
+      "text": "il",
+      "start": 18.518,
+      "end": 18.611
+    },
+    {
+      "text": "fallait",
+      "start": 18.658,
+      "end": 18.867
+    },
+    {
+      "text": "savoir",
+      "start": 18.89,
+      "end": 19.18
+    },
+    {
+      "text": "coder",
+      "start": 19.25,
+      "end": 19.563
+    },
+    {
+      "text": "pour",
+      "start": 19.598,
+      "end": 19.714
+    },
+    {
+      "text": "faire",
+      "start": 19.761,
+      "end": 19.912
+    },
+    {
+      "text": "ça.",
+      "start": 19.946,
+      "end": 20.155
+    },
+    {
+      "text": "Aujourd'hui,",
+      "start": 20.178,
+      "end": 20.654
+    },
+    {
+      "text": "tu",
+      "start": 20.677,
+      "end": 20.805
+    },
+    {
+      "text": "envoies",
+      "start": 20.863,
+      "end": 21.107
+    },
+    {
+      "text": "une",
+      "start": 21.177,
+      "end": 21.258
+    },
+    {
+      "text": "capture",
+      "start": 21.281,
+      "end": 21.641
+    },
+    {
+      "text": "d'écran",
+      "start": 21.664,
+      "end": 21.955
+    },
+    {
+      "text": "à",
+      "start": 22.024,
+      "end": 22.047
+    },
+    {
+      "text": "Claude,",
+      "start": 22.094,
+      "end": 22.407
+    },
+    {
+      "text": "et",
+      "start": 22.454,
+      "end": 22.547
+    },
+    {
+      "text": "il",
+      "start": 22.593,
+      "end": 22.709
+    },
+    {
+      "text": "te",
+      "start": 22.779,
+      "end": 22.86
+    },
+    {
+      "text": "crée",
+      "start": 22.907,
+      "end": 23.162
+    },
+    {
+      "text": "un",
+      "start": 23.208,
+      "end": 23.29
+    },
+    {
+      "text": "jeu",
+      "start": 23.371,
+      "end": 23.522
+    },
+    {
+      "text": "comme",
+      "start": 23.592,
+      "end": 23.754
+    },
+    {
+      "text": "celui-là,",
+      "start": 23.777,
+      "end": 24.253
+    },
+    {
+      "text": "pour",
+      "start": 24.3,
+      "end": 24.474
+    },
+    {
+      "text": "toi.",
+      "start": 24.532,
+      "end": 24.799
+    },
+    {
+      "text": "Tu",
+      "start": 24.822,
+      "end": 24.95
+    },
+    {
+      "text": "le",
+      "start": 24.996,
+      "end": 25.066
+    },
+    {
+      "text": "connectes",
+      "start": 25.112,
+      "end": 25.472
+    },
+    {
+      "text": "à",
+      "start": 25.519,
+      "end": 25.565
+    },
+    {
+      "text": "Google",
+      "start": 25.681,
+      "end": 25.995
+    },
+    {
+      "text": "AdSense,",
+      "start": 26.03,
+      "end": 26.436
+    },
+    {
+      "text": "et",
+      "start": 26.471,
+      "end": 26.61
+    },
+    {
+      "text": "ce",
+      "start": 26.657,
+      "end": 26.749
+    },
+    {
+      "text": "sont",
+      "start": 26.808,
+      "end": 26.982
+    },
+    {
+      "text": "tes",
+      "start": 27.005,
+      "end": 27.109
+    },
+    {
+      "text": "pubs",
+      "start": 27.144,
+      "end": 27.353
+    },
+    {
+      "text": "qui",
+      "start": 27.376,
+      "end": 27.469
+    },
+    {
+      "text": "tournent",
+      "start": 27.516,
+      "end": 27.76
+    },
+    {
+      "text": "quand",
+      "start": 27.806,
+      "end": 27.945
+    },
+    {
+      "text": "les",
+      "start": 27.969,
+      "end": 28.061
+    },
+    {
+      "text": "gens",
+      "start": 28.096,
+      "end": 28.236
+    },
+    {
+      "text": "jouent.",
+      "start": 28.259,
+      "end": 28.537
+    },
+    {
+      "text": "Le",
+      "start": 28.572,
+      "end": 28.723
+    },
+    {
+      "text": "prochain",
+      "start": 28.758,
+      "end": 29.095
+    },
+    {
+      "text": "Flappy",
+      "start": 29.153,
+      "end": 29.443
+    },
+    {
+      "text": "Bird,",
+      "start": 29.501,
+      "end": 29.768
+    },
+    {
+      "text": "ça",
+      "start": 29.814,
+      "end": 29.919
+    },
+    {
+      "text": "peut",
+      "start": 29.977,
+      "end": 30.105
+    },
+    {
+      "text": "être",
+      "start": 30.151,
+      "end": 30.372
+    },
+    {
+      "text": "le",
+      "start": 30.407,
+      "end": 30.488
+    },
+    {
+      "text": "tien.",
+      "start": 30.523,
+      "end": 30.802
+    },
+    {
+      "text": "Si",
+      "start": 30.825,
+      "end": 30.964
+    },
+    {
+      "text": "tu",
+      "start": 31.011,
+      "end": 31.103
+    },
+    {
+      "text": "veux",
+      "start": 31.15,
+      "end": 31.266
+    },
+    {
+      "text": "la",
+      "start": 31.301,
+      "end": 31.37
+    },
+    {
+      "text": "méthode,",
+      "start": 31.417,
+      "end": 31.777
+    },
+    {
+      "text": "tape",
+      "start": 31.823,
+      "end": 32.044
+    },
+    {
+      "text": "« jeu »",
+      "start": 32.299,
+      "end": 32.439
+    },
+    {
+      "text": "en",
+      "start": 32.531,
+      "end": 32.613
+    },
+    {
+      "text": "commentaire,",
+      "start": 32.671,
+      "end": 33.205
+    },
+    {
+      "text": "et",
+      "start": 33.24,
+      "end": 33.367
+    },
+    {
+      "text": "clique",
+      "start": 33.414,
+      "end": 33.692
+    },
+    {
+      "text": "sur",
+      "start": 33.716,
+      "end": 33.855
+    },
+    {
+      "text": "le",
+      "start": 33.89,
+      "end": 33.971
+    },
+    {
+      "text": "lien",
+      "start": 34.006,
+      "end": 34.192
+    },
+    {
+      "text": "dans",
+      "start": 34.25,
+      "end": 34.366
+    },
+    {
+      "text": "ma",
+      "start": 34.389,
+      "end": 34.47
+    },
+    {
+      "text": "bio.",
+      "start": 34.517,
+      "end": 34.877
+    }
+  ]
+}

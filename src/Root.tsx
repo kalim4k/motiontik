@@ -11,6 +11,7 @@ import { PersoTest } from "./videos/perso-test";
 import { StickLab } from "./videos/stick-lab";
 import { ArnaqueLegale } from "./videos/arnaque-legale";
 import { JeuGratuit } from "./videos/jeu-gratuit";
+import { Flappy, FlappyClip } from "./videos/flappy";
 
 // Une entrée par vidéo : slug (= dossier dans videos/ et public/) + composant
 // `extra` = secondes ajoutées à la durée de la voix (pauses insérées).
@@ -24,6 +25,7 @@ const videos: { slug: string; component: React.FC<VideoProps>; extra?: number }[
   { slug: "business-500f", component: Business500F },
   { slug: "arnaque-legale", component: ArnaqueLegale },
   { slug: "jeu-gratuit", component: JeuGratuit },
+  { slug: "flappy", component: Flappy },
 ];
 
 export const Root: React.FC = () => (
@@ -47,6 +49,8 @@ export const Root: React.FC = () => (
         }}
       />
     ))}
+    {/* Clip du mini-jeu, rendu en public/flappy/clip.mp4 (aperçu dans la fenêtre Claude) */}
+    <Composition id="flappy-clip" component={FlappyClip} width={400} height={820} fps={FPS} durationInFrames={FPS * 8} />
     <Composition id="stick-lab" component={StickLab} width={WIDTH} height={HEIGHT} fps={FPS} durationInFrames={4} />
   </>
 );

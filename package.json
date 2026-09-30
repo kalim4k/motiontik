@@ -10,7 +10,8 @@
     "music": "node scripts/music.mjs",
     "capture": "node scripts/capture.mjs",
     "image": "node scripts/image.mjs",
-    "fonts": "node scripts/fonts.mjs"
+    "fonts": "node scripts/fonts.mjs",
+    "dialogue": "node scripts/dialogue.mjs"
   },
   "dependencies": {
     "@remotion/cli": "^4.0.529",

@@ -1,0 +1,973 @@
+{
+  "duration": 38.713967000000004,
+  "words": [
+    {
+      "text": "Frérot,",
+      "start": 0,
+      "end": 0.348,
+      "speaker": "A"
+    },
+    {
+      "text": "je",
+      "start": 0.406,
+      "end": 0.464,
+      "speaker": "A"
+    },
+    {
+      "text": "viens",
+      "start": 0.511,
+      "end": 0.662,
+      "speaker": "A"
+    },
+    {
+      "text": "de",
+      "start": 0.685,
+      "end": 1.138,
+      "speaker": "A"
+    },
+    {
+      "text": "tomber",
+      "start": 1.196,
+      "end": 1.463,
+      "speaker": "A"
+    },
+    {
+      "text": "sur",
+      "start": 1.509,
+      "end": 1.625,
+      "speaker": "A"
+    },
+    {
+      "text": "un",
+      "start": 1.66,
+      "end": 1.73,
+      "speaker": "A"
+    },
+    {
+      "text": "site",
+      "start": 1.765,
+      "end": 1.939,
+      "speaker": "A"
+    },
+    {
+      "text": "qui",
+      "start": 1.974,
+      "end": 2.055,
+      "speaker": "A"
+    },
+    {
+      "text": "te",
+      "start": 2.113,
+      "end": 2.183,
+      "speaker": "A"
+    },
+    {
+      "text": "paie",
+      "start": 2.241,
+      "end": 2.345,
+      "speaker": "A"
+    },
+    {
+      "text": "pour",
+      "start": 2.38,
+      "end": 2.508,
+      "speaker": "A"
+    },
+    {
+      "text": "jouer",
+      "start": 2.543,
+      "end": 2.74,
+      "speaker": "A"
+    },
+    {
+      "text": "à",
+      "start": 2.81,
+      "end": 2.868,
+      "speaker": "A"
+    },
+    {
+      "text": "des",
+      "start": 2.937,
+      "end": 3.053,
+      "speaker": "A"
+    },
+    {
+      "text": "jeux !",
+      "start": 3.088,
+      "end": 3.251,
+      "speaker": "A"
+    },
+    {
+      "text": "Hmm…",
+      "start": 3.570113,
+      "end": 3.9071130000000003,
+      "speaker": "B"
+    },
+    {
+      "text": "ça",
+      "start": 4.023113,
+      "end": 4.174113,
+      "speaker": "B"
+    },
+    {
+      "text": "sent",
+      "start": 4.243113,
+      "end": 4.394113,
+      "speaker": "B"
+    },
+    {
+      "text": "l'arnaque,",
+      "start": 4.429113,
+      "end": 4.894113,
+      "speaker": "B"
+    },
+    {
+      "text": "ça.",
+      "start": 4.952113,
+      "end": 5.288113,
+      "speaker": "B"
+    },
+    {
+      "text": "Non",
+      "start": 5.468389999999999,
+      "end": 5.6653899999999995,
+      "speaker": "A"
+    },
+    {
+      "text": "non,",
+      "start": 5.70039,
+      "end": 5.840389999999999,
+      "speaker": "A"
+    },
+    {
+      "text": "je",
+      "start": 5.863389999999999,
+      "end": 5.956389999999999,
+      "speaker": "A"
+    },
+    {
+      "text": "te",
+      "start": 6.01439,
+      "end": 6.08339,
+      "speaker": "A"
+    },
+    {
+      "text": "jure,",
+      "start": 6.130389999999999,
+      "end": 6.350389999999999,
+      "speaker": "A"
+    },
+    {
+      "text": "c'est",
+      "start": 6.385389999999999,
+      "end": 6.58339,
+      "speaker": "A"
+    },
+    {
+      "text": "pas",
+      "start": 6.629389999999999,
+      "end": 6.8383899999999995,
+      "speaker": "A"
+    },
+    {
+      "text": "une",
+      "start": 6.91939,
+      "end": 7.10539,
+      "speaker": "A"
+    },
+    {
+      "text": "arnaque,",
+      "start": 7.12839,
+      "end": 7.593389999999999,
+      "speaker": "A"
+    },
+    {
+      "text": "regarde !",
+      "start": 7.639389999999999,
+      "end": 7.9873899999999995,
+      "speaker": "A"
+    },
+    {
+      "text": "D'accord.",
+      "start": 8.341904999999999,
+      "end": 8.863904999999999,
+      "speaker": "B"
+    },
+    {
+      "text": "Mais",
+      "start": 8.910905,
+      "end": 9.026905,
+      "speaker": "B"
+    },
+    {
+      "text": "même",
+      "start": 9.049904999999999,
+      "end": 9.223904999999998,
+      "speaker": "B"
+    },
+    {
+      "text": "si",
+      "start": 9.247905,
+      "end": 9.351904999999999,
+      "speaker": "B"
+    },
+    {
+      "text": "c'est",
+      "start": 9.398905,
+      "end": 9.537904999999999,
+      "speaker": "B"
+    },
+    {
+      "text": "vrai…",
+      "start": 9.560904999999998,
+      "end": 9.920905,
+      "speaker": "B"
+    },
+    {
+      "text": "tu",
+      "start": 9.966904999999999,
+      "end": 10.094904999999999,
+      "speaker": "B"
+    },
+    {
+      "text": "sais",
+      "start": 10.164905,
+      "end": 10.291904999999998,
+      "speaker": "B"
+    },
+    {
+      "text": "que",
+      "start": 10.315904999999999,
+      "end": 10.396904999999999,
+      "speaker": "B"
+    },
+    {
+      "text": "tu",
+      "start": 10.442905,
+      "end": 10.547904999999998,
+      "speaker": "B"
+    },
+    {
+      "text": "peux",
+      "start": 10.605904999999998,
+      "end": 10.709905,
+      "speaker": "B"
+    },
+    {
+      "text": "créer",
+      "start": 10.733904999999998,
+      "end": 10.942905,
+      "speaker": "B"
+    },
+    {
+      "text": "ton",
+      "start": 10.965905,
+      "end": 11.081904999999999,
+      "speaker": "B"
+    },
+    {
+      "text": "propre",
+      "start": 11.116905,
+      "end": 11.441904999999998,
+      "speaker": "B"
+    },
+    {
+      "text": "jeu,",
+      "start": 11.476904999999999,
+      "end": 11.696905,
+      "speaker": "B"
+    },
+    {
+      "text": "et",
+      "start": 11.731905,
+      "end": 11.812904999999999,
+      "speaker": "B"
+    },
+    {
+      "text": "que",
+      "start": 11.859904999999998,
+      "end": 11.940904999999999,
+      "speaker": "B"
+    },
+    {
+      "text": "c'est",
+      "start": 11.975905,
+      "end": 12.114904999999998,
+      "speaker": "B"
+    },
+    {
+      "text": "toi",
+      "start": 12.137904999999998,
+      "end": 12.277904999999999,
+      "speaker": "B"
+    },
+    {
+      "text": "qui",
+      "start": 12.312904999999999,
+      "end": 12.404905,
+      "speaker": "B"
+    },
+    {
+      "text": "gagnes",
+      "start": 12.463904999999999,
+      "end": 12.730905,
+      "speaker": "B"
+    },
+    {
+      "text": "l'argent ?",
+      "start": 12.753905,
+      "end": 13.171904999999999,
+      "speaker": "B"
+    },
+    {
+      "text": "Créer",
+      "start": 13.490974999999999,
+      "end": 13.687974999999998,
+      "speaker": "A"
+    },
+    {
+      "text": "un",
+      "start": 13.711974999999999,
+      "end": 13.780974999999998,
+      "speaker": "A"
+    },
+    {
+      "text": "jeu ?",
+      "start": 13.850974999999998,
+      "end": 13.989975,
+      "speaker": "A"
+    },
+    {
+      "text": "Moi ?",
+      "start": 14.245975,
+      "end": 14.500974999999999,
+      "speaker": "A"
+    },
+    {
+      "text": "Mais",
+      "start": 14.674974999999998,
+      "end": 14.779974999999999,
+      "speaker": "A"
+    },
+    {
+      "text": "je",
+      "start": 14.802974999999998,
+      "end": 14.848975,
+      "speaker": "A"
+    },
+    {
+      "text": "sais",
+      "start": 14.895974999999998,
+      "end": 14.999975,
+      "speaker": "A"
+    },
+    {
+      "text": "pas",
+      "start": 15.034975,
+      "end": 15.150974999999999,
+      "speaker": "A"
+    },
+    {
+      "text": "coder !",
+      "start": 15.173974999999999,
+      "end": 15.499975,
+      "speaker": "A"
+    },
+    {
+      "text": "T'as",
+      "start": 15.760770999999998,
+      "end": 15.957770999999997,
+      "speaker": "B"
+    },
+    {
+      "text": "pas",
+      "start": 15.981770999999998,
+      "end": 16.097770999999998,
+      "speaker": "B"
+    },
+    {
+      "text": "besoin",
+      "start": 16.120770999999998,
+      "end": 16.387770999999997,
+      "speaker": "B"
+    },
+    {
+      "text": "de",
+      "start": 16.433771,
+      "end": 16.491771,
+      "speaker": "B"
+    },
+    {
+      "text": "coder.",
+      "start": 16.538770999999997,
+      "end": 16.886771,
+      "speaker": "B"
+    },
+    {
+      "text": "Tu",
+      "start": 16.909771,
+      "end": 17.037771,
+      "speaker": "B"
+    },
+    {
+      "text": "prends",
+      "start": 17.084771,
+      "end": 17.281771,
+      "speaker": "B"
+    },
+    {
+      "text": "une",
+      "start": 17.339771,
+      "end": 17.490771,
+      "speaker": "B"
+    },
+    {
+      "text": "capture",
+      "start": 17.513771,
+      "end": 17.873770999999998,
+      "speaker": "B"
+    },
+    {
+      "text": "d'un",
+      "start": 17.896770999999998,
+      "end": 18.024770999999998,
+      "speaker": "B"
+    },
+    {
+      "text": "jeu",
+      "start": 18.082770999999997,
+      "end": 18.210770999999998,
+      "speaker": "B"
+    },
+    {
+      "text": "populaire",
+      "start": 18.268770999999997,
+      "end": 18.686771,
+      "speaker": "B"
+    },
+    {
+      "text": "sur",
+      "start": 18.709770999999996,
+      "end": 18.825771,
+      "speaker": "B"
+    },
+    {
+      "text": "le",
+      "start": 18.860771,
+      "end": 18.930771,
+      "speaker": "B"
+    },
+    {
+      "text": "Play",
+      "start": 18.976771,
+      "end": 19.127771,
+      "speaker": "B"
+    },
+    {
+      "text": "Store,",
+      "start": 19.150771,
+      "end": 19.522771,
+      "speaker": "B"
+    },
+    {
+      "text": "tu",
+      "start": 19.556770999999998,
+      "end": 19.684770999999998,
+      "speaker": "B"
+    },
+    {
+      "text": "l'envoies",
+      "start": 19.754770999999998,
+      "end": 20.102770999999997,
+      "speaker": "B"
+    },
+    {
+      "text": "à",
+      "start": 20.160770999999997,
+      "end": 20.183771,
+      "speaker": "B"
+    },
+    {
+      "text": "Claude,",
+      "start": 20.230770999999997,
+      "end": 20.590770999999997,
+      "speaker": "B"
+    },
+    {
+      "text": "et",
+      "start": 20.613771,
+      "end": 20.706770999999996,
+      "speaker": "B"
+    },
+    {
+      "text": "il",
+      "start": 20.764770999999996,
+      "end": 20.915771,
+      "speaker": "B"
+    },
+    {
+      "text": "te",
+      "start": 20.973771,
+      "end": 21.054771,
+      "speaker": "B"
+    },
+    {
+      "text": "crée",
+      "start": 21.101771,
+      "end": 21.368771,
+      "speaker": "B"
+    },
+    {
+      "text": "un",
+      "start": 21.426771,
+      "end": 21.553770999999998,
+      "speaker": "B"
+    },
+    {
+      "text": "jeu",
+      "start": 21.635771,
+      "end": 21.797770999999997,
+      "speaker": "B"
+    },
+    {
+      "text": "dans",
+      "start": 21.855770999999997,
+      "end": 22.029770999999997,
+      "speaker": "B"
+    },
+    {
+      "text": "ce",
+      "start": 22.053770999999998,
+      "end": 22.157770999999997,
+      "speaker": "B"
+    },
+    {
+      "text": "style.",
+      "start": 22.192771,
+      "end": 22.680771,
+      "speaker": "B"
+    },
+    {
+      "text": "Et",
+      "start": 22.860317,
+      "end": 22.999316999999998,
+      "speaker": "A"
+    },
+    {
+      "text": "l'argent,",
+      "start": 23.034316999999998,
+      "end": 23.371316999999998,
+      "speaker": "A"
+    },
+    {
+      "text": "il",
+      "start": 23.429316999999998,
+      "end": 23.499316999999998,
+      "speaker": "A"
+    },
+    {
+      "text": "vient",
+      "start": 23.533316999999997,
+      "end": 23.731316999999997,
+      "speaker": "A"
+    },
+    {
+      "text": "d'où ?",
+      "start": 23.766316999999997,
+      "end": 23.917316999999997,
+      "speaker": "A"
+    },
+    {
+      "text": "Tu",
+      "start": 24.201314999999997,
+      "end": 24.410314999999997,
+      "speaker": "B"
+    },
+    {
+      "text": "connectes",
+      "start": 24.468314999999997,
+      "end": 24.863314999999997,
+      "speaker": "B"
+    },
+    {
+      "text": "ton",
+      "start": 24.886314999999996,
+      "end": 25.014314999999996,
+      "speaker": "B"
+    },
+    {
+      "text": "jeu",
+      "start": 25.072314999999996,
+      "end": 25.234315,
+      "speaker": "B"
+    },
+    {
+      "text": "à",
+      "start": 25.327315,
+      "end": 25.374314999999996,
+      "speaker": "B"
+    },
+    {
+      "text": "Google",
+      "start": 25.490315,
+      "end": 25.850315,
+      "speaker": "B"
+    },
+    {
+      "text": "AdSense.",
+      "start": 25.873314999999998,
+      "end": 26.349314999999997,
+      "speaker": "B"
+    },
+    {
+      "text": "Chaque",
+      "start": 26.419314999999997,
+      "end": 26.674314999999996,
+      "speaker": "B"
+    },
+    {
+      "text": "fois",
+      "start": 26.697314999999996,
+      "end": 26.813314999999996,
+      "speaker": "B"
+    },
+    {
+      "text": "que",
+      "start": 26.836315,
+      "end": 26.929315,
+      "speaker": "B"
+    },
+    {
+      "text": "des",
+      "start": 26.976314999999996,
+      "end": 27.069314999999996,
+      "speaker": "B"
+    },
+    {
+      "text": "gens",
+      "start": 27.103315,
+      "end": 27.278315,
+      "speaker": "B"
+    },
+    {
+      "text": "jouent,",
+      "start": 27.301315,
+      "end": 27.533314999999998,
+      "speaker": "B"
+    },
+    {
+      "text": "les",
+      "start": 27.568315,
+      "end": 27.684314999999998,
+      "speaker": "B"
+    },
+    {
+      "text": "pubs",
+      "start": 27.707314999999998,
+      "end": 27.939314999999997,
+      "speaker": "B"
+    },
+    {
+      "text": "te",
+      "start": 27.963314999999998,
+      "end": 28.044314999999997,
+      "speaker": "B"
+    },
+    {
+      "text": "rapportent",
+      "start": 28.102314999999997,
+      "end": 28.532314999999997,
+      "speaker": "B"
+    },
+    {
+      "text": "de",
+      "start": 28.555314999999997,
+      "end": 28.613314999999997,
+      "speaker": "B"
+    },
+    {
+      "text": "l'argent.",
+      "start": 28.659315,
+      "end": 29.124314999999996,
+      "speaker": "B"
+    },
+    {
+      "text": "Attends…",
+      "start": 29.303945,
+      "end": 29.698945,
+      "speaker": "A"
+    },
+    {
+      "text": "donc",
+      "start": 29.721944999999998,
+      "end": 29.860944999999997,
+      "speaker": "A"
+    },
+    {
+      "text": "au",
+      "start": 29.895944999999998,
+      "end": 29.953944999999997,
+      "speaker": "A"
+    },
+    {
+      "text": "lieu",
+      "start": 29.988944999999998,
+      "end": 30.092945,
+      "speaker": "A"
+    },
+    {
+      "text": "d'être",
+      "start": 30.139944999999997,
+      "end": 30.290944999999997,
+      "speaker": "A"
+    },
+    {
+      "text": "payé",
+      "start": 30.336945,
+      "end": 30.534945,
+      "speaker": "A"
+    },
+    {
+      "text": "des",
+      "start": 30.568945,
+      "end": 30.650945,
+      "speaker": "A"
+    },
+    {
+      "text": "miettes",
+      "start": 30.673945,
+      "end": 30.882945,
+      "speaker": "A"
+    },
+    {
+      "text": "pour",
+      "start": 30.975945,
+      "end": 31.172945,
+      "speaker": "A"
+    },
+    {
+      "text": "jouer…",
+      "start": 31.219945,
+      "end": 31.625944999999998,
+      "speaker": "A"
+    },
+    {
+      "text": "C'est",
+      "start": 31.80594,
+      "end": 32.04994,
+      "speaker": "B"
+    },
+    {
+      "text": "toi",
+      "start": 32.07294,
+      "end": 32.24694,
+      "speaker": "B"
+    },
+    {
+      "text": "qui",
+      "start": 32.29394,
+      "end": 32.39794,
+      "speaker": "B"
+    },
+    {
+      "text": "encaisses",
+      "start": 32.45594,
+      "end": 32.78094,
+      "speaker": "B"
+    },
+    {
+      "text": "quand",
+      "start": 32.80394,
+      "end": 32.94394,
+      "speaker": "B"
+    },
+    {
+      "text": "les",
+      "start": 32.96694,
+      "end": 33.09494,
+      "speaker": "B"
+    },
+    {
+      "text": "autres",
+      "start": 33.17594,
+      "end": 33.39694,
+      "speaker": "B"
+    },
+    {
+      "text": "jouent.",
+      "start": 33.41994,
+      "end": 33.75594,
+      "speaker": "B"
+    },
+    {
+      "text": "Montre-moi",
+      "start": 33.936416,
+      "end": 34.319416000000004,
+      "speaker": "A"
+    },
+    {
+      "text": "comment",
+      "start": 34.354416,
+      "end": 34.598416,
+      "speaker": "A"
+    },
+    {
+      "text": "on",
+      "start": 34.644416,
+      "end": 34.772416,
+      "speaker": "A"
+    },
+    {
+      "text": "fait !",
+      "start": 34.888416,
+      "end": 35.201416,
+      "speaker": "A"
+    },
+    {
+      "text": "Tape",
+      "start": 35.602493,
+      "end": 35.904493,
+      "speaker": "B"
+    },
+    {
+      "text": "« jeu »",
+      "start": 36.124493,
+      "end": 36.333493000000004,
+      "speaker": "B"
+    },
+    {
+      "text": "en",
+      "start": 36.438493,
+      "end": 36.577493000000004,
+      "speaker": "B"
+    },
+    {
+      "text": "commentaire,",
+      "start": 36.624493,
+      "end": 37.216493,
+      "speaker": "B"
+    },
+    {
+      "text": "et",
+      "start": 37.274493,
+      "end": 37.390493,
+      "speaker": "B"
+    },
+    {
+      "text": "va",
+      "start": 37.425493,
+      "end": 37.518493,
+      "speaker": "B"
+    },
+    {
+      "text": "voir",
+      "start": 37.564493000000006,
+      "end": 37.738493000000005,
+      "speaker": "B"
+    },
+    {
+      "text": "le",
+      "start": 37.773493,
+      "end": 37.854493000000005,
+      "speaker": "B"
+    },
+    {
+      "text": "lien",
+      "start": 37.901493,
+      "end": 38.052493000000005,
+      "speaker": "B"
+    },
+    {
+      "text": "dans",
+      "start": 38.087493,
+      "end": 38.191493,
+      "speaker": "B"
+    },
+    {
+      "text": "ma",
+      "start": 38.214493000000004,
+      "end": 38.296493000000005,
+      "speaker": "B"
+    },
+    {
+      "text": "bio.",
+      "start": 38.342493000000005,
+      "end": 38.713493,
+      "speaker": "B"
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "A",
+      "start": 0,
+      "end": 3.390113,
+      "text": "Frérot, je viens de tomber sur un site qui te paie pour jouer à des jeux !"
+    },
+    {
+      "speaker": "B",
+      "start": 3.570113,
+      "end": 5.28839,
+      "text": "Hmm… ça sent l'arnaque, ça."
+    },
+    {
+      "speaker": "A",
+      "start": 5.468389999999999,
+      "end": 8.161904999999999,
+      "text": "Non non, je te jure, c'est pas une arnaque, regarde !"
+    },
+    {
+      "speaker": "B",
+      "start": 8.341904999999999,
+      "end": 13.310975,
+      "text": "D'accord. Mais même si c'est vrai… tu sais que tu peux créer ton propre jeu, et que c'est toi qui gagnes l'argent ?"
+    },
+    {
+      "speaker": "A",
+      "start": 13.490974999999999,
+      "end": 15.580770999999999,
+      "text": "Créer un jeu ? Moi ? Mais je sais pas coder !"
+    },
+    {
+      "speaker": "B",
+      "start": 15.760770999999998,
+      "end": 22.680317,
+      "text": "T'as pas besoin de coder. Tu prends une capture d'un jeu populaire sur le Play Store, tu l'envoies à Claude, et il te crée un jeu dans ce style."
+    },
+    {
+      "speaker": "A",
+      "start": 22.860317,
+      "end": 24.021314999999998,
+      "text": "Et l'argent, il vient d'où ?"
+    },
+    {
+      "speaker": "B",
+      "start": 24.201314999999997,
+      "end": 29.123945,
+      "text": "Tu connectes ton jeu à Google AdSense. Chaque fois que des gens jouent, les pubs te rapportent de l'argent."
+    },
+    {
+      "speaker": "A",
+      "start": 29.303945,
+      "end": 31.62594,
+      "text": "Attends… donc au lieu d'être payé des miettes pour jouer…"
+    },
+    {
+      "speaker": "B",
+      "start": 31.80594,
+      "end": 33.756416,
+      "text": "C'est toi qui encaisses quand les autres jouent."
+    },
+    {
+      "speaker": "A",
+      "start": 33.936416,
+      "end": 35.422493,
+      "text": "Montre-moi comment on fait !"
+    },
+    {
+      "speaker": "B",
+      "start": 35.602493,
+      "end": 38.713967000000004,
+      "text": "Tape « jeu » en commentaire, et va voir le lien dans ma bio."
+    }
+  ]
+}

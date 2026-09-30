@@ -1,0 +1,12 @@
+A : Frérot, je viens de tomber sur un site qui te paie pour jouer à des jeux !
+B : Hmm… ça sent l'arnaque, ça.
+A : Non non, je te jure, c'est pas une arnaque, regarde !
+B : D'accord. Mais même si c'est vrai… tu sais que tu peux créer ton propre jeu, et que c'est toi qui gagnes l'argent ?
+A : Créer un jeu ? Moi ? Mais je sais pas coder !
+B : T'as pas besoin de coder. Tu prends une capture d'un jeu populaire sur le Play Store, tu l'envoies à Claude, et il te crée un jeu dans ce style.
+A : Et l'argent, il vient d'où ?
+B : Tu connectes ton jeu à Google AdSense. Chaque fois que des gens jouent, les pubs te rapportent de l'argent.
+A : Attends… donc au lieu d'être payé des miettes pour jouer…
+B : C'est toi qui encaisses quand les autres jouent.
+A : Montre-moi comment on fait !
+B : Tape « jeu » en commentaire, et va voir le lien dans ma bio.

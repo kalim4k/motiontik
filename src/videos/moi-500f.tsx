@@ -490,7 +490,7 @@ const SceneGains: React.FC<SceneProps> = ({ at, slug }) => {
   const amounts: [string, number, number, number, string][] = [
     ["2 000 F", at("deux"), 290, 440, col.yellow],
     ["5 000 F", at("cinq", 1), 790, 540, col.orange],
-    ["10 000 F CFA", at("dix"), 540, 760, col.green],
+    ["10 000 F CFA", at("dix"), 540, 690, col.green],
   ];
   return (
     <AbsoluteFill>
@@ -503,7 +503,7 @@ const SceneGains: React.FC<SceneProps> = ({ at, slug }) => {
           </Pop>
         ) : (
           <Pop key={t} at={a} x={x} y={y} rotate={-3} z={4}>
-            <Burst size={600} fill={bg}>
+            <Burst size={540} fill={bg}>
               <div style={{ textAlign: "center" }}>
                 <div style={comic(78, "#fff")}>10 000 F</div>
                 <div style={{ ...comic(46, "#fff"), marginTop: 8 }}>PAR JOUR</div>
@@ -515,7 +515,7 @@ const SceneGains: React.FC<SceneProps> = ({ at, slug }) => {
       <Pop at={at("publicitaires", 1)} x={850} y={1000} rotate={5} z={5}>
         <Tag text="Selon ton trafic" bg="#fff" size={40} />
       </Pop>
-      <CoinBurst at={at("dix")} x={540} y={760} count={14} size={76} />
+      <CoinBurst at={at("dix")} x={540} y={690} count={14} size={76} />
       <Me
         slug={slug}
         x={540}

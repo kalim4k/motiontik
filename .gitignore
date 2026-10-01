@@ -11,3 +11,6 @@ out/
 # Médias bruts et vidéo de référence d'un autre créateur
 source/
 video_*.mp4
+
+# URL temporaire de la photo de référence (scripts/face.mjs)
+.ref-url

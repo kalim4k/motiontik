@@ -13,6 +13,7 @@ import { ArnaqueLegale } from "./videos/arnaque-legale";
 import { JeuGratuit } from "./videos/jeu-gratuit";
 import { Flappy, FlappyClip } from "./videos/flappy";
 import { DiscussionJeu } from "./videos/discussion-jeu";
+import { Moi500F } from "./videos/moi-500f";
 
 // Une entrée par vidéo : slug (= dossier dans videos/ et public/) + composant
 // `extra` = secondes ajoutées à la durée de la voix (pauses insérées).
@@ -28,6 +29,7 @@ const videos: { slug: string; component: React.FC<VideoProps>; extra?: number }[
   { slug: "jeu-gratuit", component: JeuGratuit },
   { slug: "flappy", component: Flappy },
   { slug: "discussion-jeu", component: DiscussionJeu },
+  { slug: "moi-500f", component: Moi500F },
 ];
 
 export const Root: React.FC = () => (

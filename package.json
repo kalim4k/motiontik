@@ -12,7 +12,9 @@
     "image": "node scripts/image.mjs",
     "fonts": "node scripts/fonts.mjs",
     "dialogue": "node scripts/dialogue.mjs",
-    "face": "node scripts/face.mjs"
+    "face": "node scripts/face.mjs",
+    "cleanaudio": "node scripts/cleanaudio.mjs",
+    "transcribe": "node scripts/transcribe.mjs"
   },
   "dependencies": {
     "@remotion/cli": "^4.0.529",

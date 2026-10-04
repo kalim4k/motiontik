@@ -15,6 +15,7 @@ import { Flappy, FlappyClip } from "./videos/flappy";
 import { DiscussionJeu } from "./videos/discussion-jeu";
 import { Moi500F } from "./videos/moi-500f";
 import { ChaineWhatsapp } from "./videos/chaine-whatsapp";
+import { FormationAdsterra } from "./videos/formation-adsterra";
 
 // Une entrée par vidéo : slug (= dossier dans videos/ et public/) + composant
 // `extra` = secondes ajoutées à la durée de la voix (pauses insérées).
@@ -57,6 +58,20 @@ export const Root: React.FC = () => (
     ))}
     {/* Clip du mini-jeu, rendu en public/flappy/clip.mp4 (aperçu dans la fenêtre Claude) */}
     <Composition id="flappy-clip" component={FlappyClip} width={400} height={820} fps={FPS} durationInFrames={FPS * 8} />
+    {/* Formation longue en 16:9 */}
+    <Composition
+      id="formation-adsterra"
+      component={FormationAdsterra}
+      width={1920}
+      height={1080}
+      fps={FPS}
+      durationInFrames={FPS * 10}
+      defaultProps={{ slug: "formation-adsterra", timing: null } as VideoProps}
+      calculateMetadata={async ({ props }) => {
+        const timing = await loadTiming(props.slug);
+        return { durationInFrames: Math.ceil((timing.duration + 1) * FPS), props: { ...props, timing } };
+      }}
+    />
     <Composition id="stick-lab" component={StickLab} width={WIDTH} height={HEIGHT} fps={FPS} durationInFrames={4} />
   </>
 );

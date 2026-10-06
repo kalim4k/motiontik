@@ -1,5 +1,6 @@
 import { AbsoluteFill, Audio, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { Backdrop, C, Callout, Card, ChapterCard, Count, font, Icon, Kicker, Reveal, SceneTitle, ScreenRec, type Shot, Subtitles, TopBar } from "../lib/Course";
+import { Backdrop, C, Callout, Card, ChapterCard, Count, font, Icon, Kicker, Photo, Reveal, SceneTitle, ScreenRec, type Shot, Subtitles, TopBar } from "../lib/Course";
+import { Flag } from "../lib/Doodle";
 import { clamp, EASE_IN_OUT, EASE_OUT, prog } from "../lib/ease";
 import type { VideoProps } from "../lib/timing";
 
@@ -9,8 +10,8 @@ import type { VideoProps } from "../lib/timing";
 const FPS = 30;
 const f = (s: number) => Math.round(s * FPS);
 
-/** Repères (secondes) de la voix nettoyée. */
-const T = {
+/** Repères (secondes) de la voix nettoyée, avant l'insertion des preuves. */
+const T0 = {
   modules: [5.42, 8.26, 11.18, 14.04],
   surprise: 20.32,
   ch1: 23.0,
@@ -130,6 +131,13 @@ const T = {
   captures: 1380.75,
   merci: 1388.81,
 };
+
+/** Partie « preuves » insérée après coup (scripts/splicevoice.mjs → public/formation-adsterra/splice.json). */
+const SPLICE = { at: 1126.05, start: 1126.4, shift: 252.8 };
+/** Repères finaux : tout ce qui suit l'insertion est décalé. */
+const T = Object.fromEntries(
+  Object.entries(T0).map(([k, v]) => [k, typeof v === "number" && v >= SPLICE.at ? v + SPLICE.shift : v]),
+) as typeof T0;
 
 /** Scène = séquence entre deux repères ; `r(s)` convertit une seconde absolue en frame relative. */
 const Scene: React.FC<{ from: number; to: number; dark?: boolean; children: (r: (s: number) => number) => React.ReactNode }> = ({ from, to, dark, children }) => (
@@ -868,6 +876,191 @@ const Calendar: React.FC<{ r: (s: number) => number }> = ({ r }) => {
   );
 };
 
+// ─── Preuves : mes résultats et ceux des personnes formées ─────────────────────────────
+
+const PR = (n: string) => `formation-adsterra/preuves/${n}.jpg`;
+const IMG = { x: 90, y: 110, w: 1200, h: 820 };
+const SIDE = 1340;
+
+const Proofs: React.FC<{ r: (s: number) => number }> = ({ r }) => {
+  const frame = useCurrentFrame();
+  const q = (p: number) => r(SPLICE.start + p);
+  // Plans : [début, fin) en secondes de la partie insérée
+  const shot = (from: number, to: number, el: (a: number, b: number) => React.ReactNode) => (frame >= q(from) - 2 && frame < q(to) + 8 ? el(q(from), q(to)) : null);
+  const photo = (n: string, ratio: number, a: number, b: number, zooms: [number, [number, number, number]][] = []) => (
+    <Photo src={PR(n)} ratio={ratio} at={a} out={b} {...IMG} zooms={zooms} />
+  );
+  const note = (at: number, out: number, y: number, title: string, text: string, tone: "red" | "dark" = "red") => (
+    <Callout at={at} out={out} x={SIDE} y={y} width={500} title={title} tone={tone}>
+      {text}
+    </Callout>
+  );
+  const students: [string, number][] = [
+    ["08", 0.802],
+    ["03", 1.094],
+    ["13", 1.851],
+    ["04", 0.844],
+    ["11", 0.595],
+    ["01", 0.545],
+    ["02", 0.964],
+  ];
+  return (
+    <>
+      {/* Titre de la partie */}
+      {frame < q(3.2) + 8 && (
+        <Reveal at={0} out={q(3.2)} style={{ position: "absolute", inset: 0 }}>
+          <AbsoluteFill style={{ background: C.dark, justifyContent: "center", paddingLeft: 140 }}>
+            <Kicker>Preuves</Kicker>
+            <div style={{ ...big(96, C.white), marginTop: 12 }}>Mes résultats</div>
+            <div style={{ ...big(96, C.red) }}>et ceux de mes élèves</div>
+          </AbsoluteFill>
+        </Reveal>
+      )}
+      {/* Mon compte : solde, gains, retraits */}
+      {shot(3.2, 33.4, (a, b) => (
+        <>
+          {photo("09", 1.822, a, b, [[q(5), [0.7, 0.14, 2.2]], [q(29.2), [0.5, 0.5, 1]]])}
+          {note(q(3.4), b, 200, "Reste à retirer", "574,45 $")}
+          {note(q(10.28), b, 380, "Gagné au total", "6 081 $")}
+          {note(q(13.0), b, 560, "Déjà retiré", "5 506 $", "dark")}
+          {note(q(29.22), b, 740, "Rythme", "Un retrait toutes les 2 semaines", "dark")}
+        </>
+      ))}
+      {shot(33.4, 47.9, (a, b) => (
+        <>
+          {photo("12", 1.874, a, b, [[q(38), [0.32, 0.85, 1.9]]])}
+          {note(q(41.12), b, 300, "Dernier retrait · 1er octobre", "820,49 $ par PayPal")}
+        </>
+      ))}
+      {shot(47.9, 59.8, (a, b) => (
+        <>
+          {photo("05", 2.218, a, b, [[q(49), [0.55, 0.5, 1.25]]])}
+          {note(q(48.5), b, 300, "Mail PayPal · 1er octobre", "820,49 $ reçus")}
+        </>
+      ))}
+      {shot(59.8, 70.5, (a, b) => (
+        <>
+          {photo("10", 2.222, a, b, [[q(61), [0.55, 0.5, 1.25]]])}
+          {note(q(61.62), b, 300, "Mail PayPal · 16 septembre", "692,56 $ reçus")}
+        </>
+      ))}
+      {shot(70.5, 96.1, (a, b) => (
+        <>
+          {photo("06", 1.792, a, b, [[q(76), [0.3, 0.75, 1.7]]])}
+          {note(q(72), b, 260, "Compte Ecobank", "Retrait par virement bancaire", "dark")}
+          {note(q(78.6), b, 440, "Ce jour-là", "≈ 1 800 $ reçus")}
+        </>
+      ))}
+      {shot(96.1, 106.6, () => (
+        <>
+          <Reveal at={q(96.3)} style={{ position: "absolute", left: 120, top: 330 }}>
+            <Kicker>Retours</Kicker>
+            <div style={{ ...big(84), marginTop: 10 }}>Les personnes que j'ai formées</div>
+            <div style={{ ...body(38, C.muted), marginTop: 18 }}>Leurs captures, envoyées sur WhatsApp</div>
+          </Reveal>
+        </>
+      ))}
+      {shot(106.6, 123.9, (a, b) => (
+        <>
+          {photo("08", 0.802, a, b, [[q(115), [0.6, 0.6, 1.35]]])}
+          {note(q(108.94), b, 300, "En 5 jours", "50,18 $")}
+          {note(q(116.94), b, 480, "D'un jour à l'autre", "De 2,59 $ à 21,74 $ / jour", "dark")}
+        </>
+      ))}
+      {shot(123.9, 143.7, (a, b) => (
+        <>
+          {photo("03", 1.094, a, b, [[q(136), [0.85, 0.5, 1.5]]])}
+          {note(q(123.94), b, 300, "En 5 jours", "132,99 $")}
+          {note(q(131.2), b, 480, "CPM", "Environ 2 à 3 $", "dark")}
+        </>
+      ))}
+      {shot(143.7, 156.3, (a, b) => (
+        <>
+          {photo("13", 1.851, a, b)}
+          {note(q(152.08), b, 300, "Notification PayPal", "94,46 $ reçus")}
+        </>
+      ))}
+      {shot(156.3, 162.8, (a, b) => (
+        <>
+          {photo("04", 0.844, a, b)}
+          {note(q(156.6), b, 300, "Solde PayPal", "52,42 $")}
+        </>
+      ))}
+      {shot(162.8, 181.6, (a, b) => (
+        <>
+          {photo("11", 0.595, a, b)}
+          {note(q(164.5), b, 300, "Au total", "≈ 477 $ reçus")}
+          {note(q(170.02), b, 480, "Fonds suspendus", "250 $ bloqués le temps d'une vérification", "dark")}
+        </>
+      ))}
+      {shot(181.6, 186.0, (a, b) => (
+        <>
+          {photo("01", 0.545, a, b)}
+          {note(q(181.62), b, 300, "1ʳᵉ semaine", "135,78 $ reçus")}
+        </>
+      ))}
+      {shot(186.0, 192.5, (a, b) => (
+        <>
+          {photo("02", 0.964, a, b)}
+          {note(q(186.0), b, 300, "1er octobre", "122,43 $ reçus")}
+        </>
+      ))}
+      {/* Mur de captures */}
+      {shot(192.5, 209.5, () => (
+        <>
+          {students.map(([n, ratio], i) => (
+            <Photo key={n} src={PR(n)} ratio={ratio} at={q(192.5) + i * 6} x={60 + (i % 4) * 455} y={i < 4 ? 100 : 520} w={430} h={400} />
+          ))}
+          <Reveal at={q(201.4)} scale style={{ position: "absolute", left: 1420, top: 640 }}>
+            <div style={{ padding: "16px 28px", borderRadius: 20, background: C.red, ...big(40, C.white) }}>Plein de retours positifs</div>
+          </Reveal>
+        </>
+      ))}
+      {/* Retirer sur Mobile Money */}
+      {shot(209.5, 260, () => (
+        <>
+          <Reveal at={q(209.7)} style={{ position: "absolute", left: 120, top: 130 }}>
+            <Kicker>Tu t'inquiètes pour le retrait ?</Kicker>
+            <div style={{ ...big(66), marginTop: 8 }}>PayPal → Mobile Money, c'est possible</div>
+          </Reveal>
+          <div style={{ position: "absolute", left: 120, top: 360, display: "flex", alignItems: "center", gap: 30 }}>
+            {[
+              ["Adsterra", "te paie", q(217.4)],
+              ["PayPal", "reçoit l'argent", q(217.4) + 20],
+              ["Mobile Money", "tu retires et tu dépenses", q(217.4) + 40],
+            ].map(([t, sub, at], i) => (
+              <div key={t as string} style={{ display: "flex", alignItems: "center", gap: 30 }}>
+                <Reveal at={at as number} scale>
+                  <Card accent={i === 2 ? C.green : C.red} style={{ width: 300, textAlign: "center", padding: "26px 20px" }}>
+                    <div style={big(42)}>{t}</div>
+                    <div style={{ ...body(26, C.muted), marginTop: 8 }}>{sub}</div>
+                  </Card>
+                </Reveal>
+                {i < 2 && (
+                  <Reveal at={(at as number) + 10}>
+                    <div style={big(60, C.red)}>→</div>
+                  </Reveal>
+                )}
+              </div>
+            ))}
+          </div>
+          <Reveal at={q(233.88)} style={{ position: "absolute", left: 120, top: 640, display: "flex", alignItems: "center", gap: 26 }}>
+            <Flag name="togo" width={170} />
+            <div style={body(36)}>
+              Au Togo, où PayPal n'est pas éligible :<br />
+              <b>reçu, retiré et dépensé.</b>
+            </div>
+          </Reveal>
+          <Photo src={PR("07")} ratio={0.558} at={q(237.04)} x={1350} y={120} w={480} h={800} />
+          <Reveal at={q(247.42)} scale style={{ position: "absolute", left: 120, top: 830 }}>
+            <div style={{ padding: "14px 32px", borderRadius: 999, background: C.green, ...big(40, C.white) }}>N'hésite pas à te lancer</div>
+          </Reveal>
+        </>
+      ))}
+    </>
+  );
+};
+
 // ─── Module 4 et fin ──────────────────────────────────────────────────────────────────
 
 const Traps: React.FC<{ r: (s: number) => number }> = ({ r }) => {
@@ -1009,7 +1202,9 @@ export const FormationAdsterra: React.FC<VideoProps> = ({ slug, timing }) => {
     [T.dash, T.pay, Dashboard],
     [T.pay, T.payouts, Payment],
     [T.payouts, T.auto, ({ r, len }) => <ScreenRec src="formation-adsterra/rec-retraits.mp4" url="beta.publishers.adsterra.com/payouts" len={len} shots={[{ at: r(T.payouts), from: 0, to: 20 }]} />],
-    [T.auto, T.traps, Calendar],
+    [T.auto, SPLICE.at, Calendar],
+    [SPLICE.at, SPLICE.at + SPLICE.shift, Proofs],
+    [SPLICE.at + SPLICE.shift, T.traps, Calendar],
     [T.traps, T.fin, Traps],
     [T.fin, T.outro, Bonus],
     [T.outro, end + 1, Outro, true],

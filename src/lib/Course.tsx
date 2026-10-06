@@ -1,4 +1,4 @@
-import { AbsoluteFill, Freeze, interpolate, OffthreadVideo, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, Freeze, Img, interpolate, OffthreadVideo, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { clamp, EASE_IN_OUT, EASE_OUT, prog } from "./ease";
 import { fontFamily } from "./theme";
 import type { Word } from "./timing";
@@ -444,5 +444,38 @@ export const Icon: React.FC<{ name: "check" | "cross" | "money" | "users" | "rob
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round">
       {p[name]}
     </svg>
+  );
+};
+
+/** Capture d'écran (image) ajustée dans une zone, avec zooms doux : `zooms` = [frame, [cx, cy, zoom]] (coordonnées 0–1). */
+export const Photo: React.FC<{
+  src: string;
+  ratio: number;
+  at: number;
+  out?: number;
+  x: number;
+  y: number;
+  w: number;
+  h: number;
+  zooms?: [number, [number, number, number]][];
+}> = ({ src, ratio, at, out, x, y, w, h, zooms = [] }) => {
+  const frame = useCurrentFrame();
+  const iw = ratio > w / h ? w : h * ratio;
+  const ih = ratio > w / h ? w / ratio : h;
+  let idx = -1;
+  zooms.forEach(([f], i) => {
+    if (frame >= f) idx = i;
+  });
+  const fz = (i: number): [number, number, number] => (i < 0 ? [0.5, 0.5, 1] : zooms[i][1]);
+  const p = idx >= 0 ? prog(frame, zooms[idx][0], 24, EASE_IN_OUT) : 1;
+  const [cx, cy, z] = [0, 1, 2].map((k) => fz(idx - 1)[k] + (fz(idx)[k] - fz(idx - 1)[k]) * p);
+  const tx = Math.min(0, Math.max(iw - iw * z, iw / 2 - cx * iw * z));
+  const ty = Math.min(0, Math.max(ih - ih * z, ih / 2 - cy * ih * z));
+  return (
+    <Reveal at={at} out={out} scale style={{ position: "absolute", left: x + (w - iw) / 2, top: y + (h - ih) / 2, width: iw, height: ih }}>
+      <div style={{ width: iw, height: ih, borderRadius: 20, overflow: "hidden", boxShadow: "0 24px 70px rgba(0,0,0,0.22)", border: `2px solid ${C.line}`, background: C.white }}>
+        <Img src={staticFile(src)} style={{ width: iw, height: ih, display: "block", transformOrigin: "0 0", transform: `translate(${tx}px, ${ty}px) scale(${z})` }} />
+      </div>
+    </Reveal>
   );
 };

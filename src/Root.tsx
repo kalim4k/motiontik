@@ -16,6 +16,7 @@ import { DiscussionJeu } from "./videos/discussion-jeu";
 import { Moi500F } from "./videos/moi-500f";
 import { ChaineWhatsapp } from "./videos/chaine-whatsapp";
 import { FormationAdsterra } from "./videos/formation-adsterra";
+import { FormationExtrait } from "./videos/formation-extrait";
 
 // Une entrée par vidéo : slug (= dossier dans videos/ et public/) + composant
 // `extra` = secondes ajoutées à la durée de la voix (pauses insérées).
@@ -70,6 +71,19 @@ export const Root: React.FC = () => (
       calculateMetadata={async ({ props }) => {
         const timing = await loadTiming(props.slug);
         return { durationInFrames: Math.ceil((timing.duration + 1) * FPS), props: { ...props, timing } };
+      }}
+    />
+    <Composition
+      id="formation-extrait"
+      component={FormationExtrait}
+      width={1920}
+      height={1080}
+      fps={FPS}
+      durationInFrames={FPS * 10}
+      defaultProps={{ slug: "formation-extrait", timing: null } as VideoProps}
+      calculateMetadata={async ({ props }) => {
+        const timing = await loadTiming(props.slug);
+        return { durationInFrames: Math.ceil((timing.duration + 0.4) * FPS), props: { ...props, timing } };
       }}
     />
     <Composition id="stick-lab" component={StickLab} width={WIDTH} height={HEIGHT} fps={FPS} durationInFrames={4} />

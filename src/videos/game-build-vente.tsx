@@ -24,8 +24,8 @@ const big = (size: number, color: string = G.ink): React.CSSProperties => ({ fon
 const body = (size: number, color: string = G.text): React.CSSProperties => ({ fontFamily: font, fontWeight: 700, fontSize: size, color, lineHeight: 1.25 });
 const kicker = (color: string = G.blue): React.CSSProperties => ({ fontFamily: font, fontWeight: 800, fontSize: 26, letterSpacing: 4, textTransform: "uppercase", color });
 
-/** Repères (secondes) de la voix nettoyée. */
-const T = {
+/** Repères (secondes) de la 1re version de la voix nettoyée. */
+const T0 = {
   millions: 1.84,
   partie: 4.62,
   toi: 11.08,
@@ -71,6 +71,9 @@ const T = {
   cta: 105.14,
   clique: 109.02,
 };
+
+/** Repères finaux : silence du début (-0,96 s) et « accessible » en double (-1,72 s de plus) retirés. */
+const T = Object.fromEntries(Object.entries(T0).map(([k, v]) => [k, v < 42.5 ? v - 0.96 : v - 2.68])) as typeof T0;
 
 const Bg: React.FC<{ dark?: boolean }> = ({ dark }) => (
   <AbsoluteFill
@@ -631,7 +634,6 @@ export const GameBuildVente: React.FC<VideoProps> = ({ slug, timing }) => {
   return (
     <AbsoluteFill style={{ background: G.bg }}>
       <Audio src={staticFile(`${slug}/voice.mp3`)} />
-      <Audio src={staticFile(`${slug}/music.mp3`)} volume={(fr) => interpolate(fr, [0, 20, durationInFrames - 45, durationInFrames], [0, 0.06, 0.06, 0], clamp)} />
       {scenes.map(([a, b, Comp, dark], i) => (
         <Scene key={i} from={a} to={b} dark={dark}>
           {(r) => <Comp r={r} len={f(b) - f(a)} />}

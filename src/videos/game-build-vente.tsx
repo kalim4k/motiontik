@@ -1,5 +1,5 @@
 import { AbsoluteFill, Audio, interpolate, Loop, OffthreadVideo, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { Card, font, Icon, Reveal, ScreenRec, Subtitles } from "../lib/Course";
+import { Card, font, Icon, Reveal, ScreenRec, speechGate, Subtitles } from "../lib/Course";
 import { clamp, EASE_IN_OUT, prog } from "../lib/ease";
 import type { VideoProps } from "../lib/timing";
 
@@ -633,7 +633,7 @@ export const GameBuildVente: React.FC<VideoProps> = ({ slug, timing }) => {
   ];
   return (
     <AbsoluteFill style={{ background: G.bg }}>
-      <Audio src={staticFile(`${slug}/voice.mp3`)} />
+      <Audio src={staticFile(`${slug}/voice.mp3`)} volume={speechGate(timing.words, FPS)} />
       {scenes.map(([a, b, Comp, dark], i) => (
         <Scene key={i} from={a} to={b} dark={dark}>
           {(r) => <Comp r={r} len={f(b) - f(a)} />}

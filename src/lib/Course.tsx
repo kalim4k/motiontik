@@ -479,3 +479,28 @@ export const Photo: React.FC<{
     </Reveal>
   );
 };
+
+/**
+ * Volume « porte » d'une voix : plein pendant les mots, quasi muet dans les pauses (supprime les bruits de fond
+ * remontés par le débruitage / la normalisation). À passer à <Audio volume={speechGate(words, fps)} />.
+ */
+export const speechGate = (words: Word[], fps: number, { pre = 0.12, post = 0.2, floor = 0.02, fade = 0.08 } = {}) => {
+  const spans: [number, number][] = [];
+  for (const w of words) {
+    const a = w.start - pre;
+    const b = w.end + post;
+    const last = spans[spans.length - 1];
+    if (last && a <= last[1]) last[1] = Math.max(last[1], b);
+    else spans.push([a, b]);
+  }
+  return (frame: number) => {
+    const t = frame / fps;
+    let d = Infinity;
+    for (const [a, b] of spans) {
+      if (t >= a && t <= b) return 1;
+      d = Math.min(d, Math.abs(t - a), Math.abs(t - b));
+      if (a > t + 1) break;
+    }
+    return Math.max(floor, 1 - d / fade);
+  };
+};

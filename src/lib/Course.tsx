@@ -188,7 +188,7 @@ export const TopBar: React.FC<{ title: string; modules: { label: string; from: n
 };
 
 /** Sous-titres phrase par phrase (bas d'écran), mots-clés en rouge. */
-export const Subtitles: React.FC<{ words: Word[]; keywords: RegExp; bottom?: number }> = ({ words, keywords, bottom = 44 }) => {
+export const Subtitles: React.FC<{ words: Word[]; keywords: RegExp; bottom?: number; accent?: string }> = ({ words, keywords, bottom = 44, accent = "#ff6b6f" }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
@@ -220,7 +220,7 @@ export const Subtitles: React.FC<{ words: Word[]; keywords: RegExp; bottom?: num
         }}
       >
         {line.map((w, i) => (
-          <span key={i} style={{ color: keywords.test(w.text) ? "#ff6b6f" : undefined, opacity: t >= w.start - 0.05 ? 1 : 0.45 }}>
+          <span key={i} style={{ color: keywords.test(w.text) ? accent : undefined, opacity: t >= w.start - 0.05 ? 1 : 0.45 }}>
             {w.text}
             {i < line.length - 1 ? " " : ""}
           </span>

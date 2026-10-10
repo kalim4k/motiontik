@@ -17,6 +17,7 @@ import { Moi500F } from "./videos/moi-500f";
 import { ChaineWhatsapp } from "./videos/chaine-whatsapp";
 import { FormationAdsterra } from "./videos/formation-adsterra";
 import { FormationExtrait } from "./videos/formation-extrait";
+import { GameBuildVente } from "./videos/game-build-vente";
 
 // Une entrée par vidéo : slug (= dossier dans videos/ et public/) + composant
 // `extra` = secondes ajoutées à la durée de la voix (pauses insérées).
@@ -84,6 +85,19 @@ export const Root: React.FC = () => (
       calculateMetadata={async ({ props }) => {
         const timing = await loadTiming(props.slug);
         return { durationInFrames: Math.ceil((timing.duration + 0.4) * FPS), props: { ...props, timing } };
+      }}
+    />
+    <Composition
+      id="game-build-vente"
+      component={GameBuildVente}
+      width={1920}
+      height={1080}
+      fps={FPS}
+      durationInFrames={FPS * 10}
+      defaultProps={{ slug: "game-build-vente", timing: null } as VideoProps}
+      calculateMetadata={async ({ props }) => {
+        const timing = await loadTiming(props.slug);
+        return { durationInFrames: Math.ceil((timing.duration + 1) * FPS), props: { ...props, timing } };
       }}
     />
     <Composition id="stick-lab" component={StickLab} width={WIDTH} height={HEIGHT} fps={FPS} durationInFrames={4} />

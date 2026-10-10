@@ -87,7 +87,7 @@ const list = path.join(tmp, "list.txt");
 fs.writeFileSync(list, parts.map((p) => `file '${p}'`).join("\n"));
 const outDir = path.join(root, "public", slug);
 fs.mkdirSync(outDir, { recursive: true });
-ff(["-f", "concat", "-safe", "0", "-i", list, "-af", "afftdn=nf=-30,highpass=f=70,loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", "44100", "-c:a", "libmp3lame", "-b:a", "160k", path.join(outDir, "voice.mp3")]);
+ff(["-f", "concat", "-safe", "0", "-i", list, "-af", "highpass=f=70,loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", "44100", "-c:a", "libmp3lame", "-b:a", "160k", path.join(outDir, "voice.mp3")]);
 fs.writeFileSync(path.join(outDir, "edl.json"), JSON.stringify({ source: path.basename(source), duration: +dst.toFixed(3), segments: edl }, null, 1));
 fs.rmSync(tmp, { recursive: true, force: true });
 console.log(`✔ ${slug} : ${(total / 60).toFixed(1)} min → ${(dst / 60).toFixed(1)} min (${keep.length} segments, ${cuts.length} coupes manuelles)`);

@@ -1,5 +1,6 @@
 // Nettoie une voix enregistrée : raccourcit les blancs, coupe des passages (faux départs), débruite et normalise.
-// Usage : npm run cleanaudio -- <slug> <audio source> [--cut 320.8-328.75 --cut ...] [--max-gap 0.6] [--threshold -34]
+// Usage : npm run cleanaudio -- <slug> <audio source> [--cut 320.8-328.75 --cut ...] [--duck 10.63-10.77:-60 ...] [--max-gap 0.6] [--threshold -34]
+//        --duck a-b:dB baisse un passage sans le couper (bip, pop de micro) : le timing ne bouge pas.
 // Écrit  public/<slug>/voice.mp3 et public/<slug>/edl.json : segments gardés [{ src, dst, len }] (secondes),
 //        pour convertir un instant de l'audio source en instant de la vidéo (scripts/transcribe.mjs, montage).
 import { execFileSync } from "node:child_process";
@@ -22,6 +23,15 @@ const cuts = args
   .map((a, i) => (a === "--cut" ? args[i + 1] : null))
   .filter(Boolean)
   .map((c) => c.split("-").map(Number));
+const ducks = args
+  .map((a, i) => (a === "--duck" ? args[i + 1] : null))
+  .filter(Boolean)
+  .map((d) => {
+    const [range, db = "-60"] = d.split(":");
+    const [a, b] = range.split("-").map(Number);
+    return `volume=${db}dB:enable='between(t,${a},${b})'`;
+  });
+const pre = ducks.map((d) => d + ",").join("");
 
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "clean-"));
 const ff = (a) => execFileSync("ffmpeg", ["-y", "-loglevel", "error", ...a], { stdio: "inherit", maxBuffer: 1 << 26 });
@@ -75,7 +85,7 @@ for (let b = 0; b < keep.length; b += BATCH) {
   const chunk = keep.slice(b, b + BATCH);
   const filter =
     chunk
-      .map(([s, e], i) => `[0:a]atrim=${s.toFixed(3)}:${e.toFixed(3)},asetpts=PTS-STARTPTS,afade=t=in:d=0.012,afade=t=out:st=${Math.max(0, e - s - 0.012).toFixed(3)}:d=0.012[s${i}]`)
+      .map(([s, e], i) => `[0:a]${pre}atrim=${s.toFixed(3)}:${e.toFixed(3)},asetpts=PTS-STARTPTS,afade=t=in:d=0.012,afade=t=out:st=${Math.max(0, e - s - 0.012).toFixed(3)}:d=0.012[s${i}]`)
       .join(";") + `;${chunk.map((_, i) => `[s${i}]`).join("")}concat=n=${chunk.length}:v=0:a=1[out]`;
   const out = path.join(tmp, `part${b}.wav`);
   const script = path.join(tmp, `f${b}.txt`);

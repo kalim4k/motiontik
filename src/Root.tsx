@@ -19,6 +19,7 @@ import { FormationAdsterra } from "./videos/formation-adsterra";
 import { FormationExtrait } from "./videos/formation-extrait";
 import { GameBuildVente } from "./videos/game-build-vente";
 import { KoffiAma } from "./videos/koffi-ama";
+import { PerdreJeu } from "./videos/perdre-jeu";
 
 // Une entrée par vidéo : slug (= dossier dans videos/ et public/) + composant
 // `extra` = secondes ajoutées à la durée de la voix (pauses insérées).
@@ -37,6 +38,7 @@ const videos: { slug: string; component: React.FC<VideoProps>; extra?: number }[
   { slug: "moi-500f", component: Moi500F },
   { slug: "chaine-whatsapp", component: ChaineWhatsapp },
   { slug: "koffi-ama", component: KoffiAma },
+  { slug: "perdre-jeu", component: PerdreJeu },
 ];
 
 export const Root: React.FC = () => (

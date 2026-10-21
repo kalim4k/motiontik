@@ -20,6 +20,7 @@ import { FormationExtrait } from "./videos/formation-extrait";
 import { GameBuildVente } from "./videos/game-build-vente";
 import { KoffiAma } from "./videos/koffi-ama";
 import { PerdreJeu } from "./videos/perdre-jeu";
+import { MaxSam } from "./videos/max-sam";
 
 // Une entrée par vidéo : slug (= dossier dans videos/ et public/) + composant
 // `extra` = secondes ajoutées à la durée de la voix (pauses insérées).
@@ -62,6 +63,8 @@ export const Root: React.FC = () => (
         }}
       />
     ))}
+    {/* Vidéo de l'utilisateur + étiquettes fléchées Max / Sam */}
+    <Composition id="max-sam" component={MaxSam} width={768} height={1344} fps={24} durationInFrames={170} />
     {/* Clip du mini-jeu, rendu en public/flappy/clip.mp4 (aperçu dans la fenêtre Claude) */}
     <Composition id="flappy-clip" component={FlappyClip} width={400} height={820} fps={FPS} durationInFrames={FPS * 8} />
     {/* Formation longue en 16:9 */}

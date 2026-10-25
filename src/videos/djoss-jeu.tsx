@@ -1,4 +1,4 @@
-import { AbsoluteFill, Audio, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, Audio, OffthreadVideo, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import {
   Burst,
   CameraIcon,
@@ -95,9 +95,9 @@ const SceneBusiness: React.FC<SceneProps> = ({ at }) => (
 );
 
 /** Téléphone dessiné qui affiche un enregistrement d'écran de l'utilisateur. */
-const Rec: React.FC<{ src: string; width: number; trim?: number }> = ({ src, width, trim }) => (
+const Rec: React.FC<{ src: string; width: number; rate?: number }> = ({ src, width, rate = 1 }) => (
   <InkPhone width={width}>
-    <ScreenVideo src={src} trim={trim} />
+    <OffthreadVideo src={staticFile(src)} muted playbackRate={rate} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} />
   </InkPhone>
 );
 
@@ -175,7 +175,7 @@ const SceneClaude: React.FC<SceneProps> = ({ at, slug }) => {
     <AbsoluteFill>
       <Ground none />
       <Pop at={0} x={330} y={1000} rotate={-3} from="left">
-        <Rec src={`${slug}/claude.mp4`} width={540} />
+        <Rec src={`${slug}/claude.mp4`} width={540} rate={0.75} />
       </Pop>
       <Pop at={at("claude", 1)} x={820} y={430} rotate={5}>
         <div style={{ display: "flex", alignItems: "center", gap: 14, padding: "14px 26px", background: "#faf9f5", border: `6px solid ${ink}`, borderRadius: 24, boxShadow: `6px 8px 0 ${ink}` }}>

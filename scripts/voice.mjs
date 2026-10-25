@@ -1,5 +1,7 @@
 // Génère la voix off d'une vidéo avec ElevenLabs + le timing de chaque mot.
-// Usage : npm run voice -- <slug> [--voice <voiceId>] [--flow]
+// Usage : npm run voice -- <slug> [--voice <voiceId>] [--model <modelId>] [--flow]
+// --model eleven_v3 / eleven_v4 : modèles expressifs ; le script peut contenir des tags d'émotion entre crochets
+//         ([excited], [laughs], [whispers]…) qui sont joués mais retirés du timing (sous-titres).
 // Lit    videos/<slug>/script.txt
 // Écrit  public/<slug>/voice.mp3 et public/<slug>/timing.json
 //
@@ -16,11 +18,15 @@ import { config, env, root } from "./env.mjs";
 const args = process.argv.slice(2);
 const slug = args[0];
 if (!slug) {
-  console.error("Usage : npm run voice -- <slug> [--voice <voiceId>] [--flow]");
+  console.error("Usage : npm run voice -- <slug> [--voice <voiceId>] [--model <modelId>] [--flow]");
   process.exit(1);
 }
 const voiceIdx = args.indexOf("--voice");
 const voiceId = voiceIdx > -1 ? args[voiceIdx + 1] : config.defaultVoiceId;
+const modelIdx = args.indexOf("--model");
+const modelId = modelIdx > -1 ? args[modelIdx + 1] : config.modelId;
+// Les modèles expressifs (v3+) ont leurs propres réglages : on ne leur envoie pas ceux de multilingual_v2.
+const expressive = /^eleven_v[3-9]/.test(modelId);
 const script = fs.readFileSync(path.join(root, "videos", slug, "script.txt"), "utf8").trim();
 const outDir = path.join(root, "public", slug);
 fs.mkdirSync(outDir, { recursive: true });
@@ -31,7 +37,7 @@ async function tts(text, extra = {}) {
     {
       method: "POST",
       headers: { "xi-api-key": env.ELEVENLABS_API_KEY, "Content-Type": "application/json" },
-      body: JSON.stringify({ text, model_id: config.modelId, voice_settings: config.voiceSettings, ...extra }),
+      body: JSON.stringify({ text, model_id: modelId, ...(expressive ? {} : { voice_settings: config.voiceSettings }), ...extra }),
     }
   );
   if (!res.ok) {
@@ -91,10 +97,24 @@ if (!args.includes("--flow")) {
   console.log(`  ${chunks.length} phrases enchaînées, pause ${sentencePause} s`);
 }
 
+words = dropTags(words);
 mergePunctuation(words);
 fs.writeFileSync(path.join(outDir, "timing.json"), JSON.stringify({ duration, words }, null, 2));
 normalize(path.join(outDir, "voice.mp3"));
-console.log(`✔ ${slug} : ${words.length} mots, ${duration.toFixed(2)} s (voix ${voiceId})`);
+console.log(`✔ ${slug} : ${words.length} mots, ${duration.toFixed(2)} s (voix ${voiceId}, ${modelId})`);
+
+/** Retire les tags d'émotion [..] (éventuellement sur plusieurs mots) : ils ne sont pas prononcés. */
+function dropTags(list) {
+  let inside = false;
+  return list.filter((w) => {
+    const t = w.text;
+    if (inside || t.startsWith("[")) {
+      inside = !t.includes("]");
+      return false;
+    }
+    return true;
+  });
+}
 
 function ffmpeg(a) {
   execFileSync("ffmpeg", ["-y", "-loglevel", "error", ...a], { stdio: "inherit" });

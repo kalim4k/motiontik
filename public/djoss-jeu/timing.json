@@ -1,665 +1,665 @@
 {
- "duration": 36.316,
+ "duration": 45.6,
  "words": [
   {
    "text": "Si",
-   "start": 0,
-   "end": 0.186
+   "start": 0.08,
+   "end": 0.16
   },
   {
    "text": "tu",
-   "start": 0.244,
-   "end": 0.36
+   "start": 0.2,
+   "end": 0.24
   },
   {
    "text": "es",
-   "start": 0.441,
-   "end": 0.488
+   "start": 0.32,
+   "end": 0.4
   },
   {
    "text": "au",
-   "start": 0.511,
-   "end": 0.627
+   "start": 0.48,
+   "end": 0.56
   },
   {
    "text": "Togo,",
-   "start": 0.685,
-   "end": 1.103
+   "start": 0.6,
+   "end": 1.12
   },
   {
    "text": "au",
-   "start": 1.126,
-   "end": 1.219
+   "start": 1.16,
+   "end": 1.2
   },
   {
    "text": "Bénin,",
-   "start": 1.277,
-   "end": 1.614
+   "start": 1.28,
+   "end": 1.76
   },
   {
    "text": "en",
-   "start": 1.649,
-   "end": 1.776
+   "start": 1.84,
+   "end": 1.92
   },
   {
    "text": "Côte",
-   "start": 1.834,
-   "end": 2.032
+   "start": 1.96,
+   "end": 2.08
   },
   {
    "text": "d'Ivoire…",
-   "start": 2.055,
-   "end": 2.566
+   "start": 2.16,
+   "end": 2.88
   },
   {
    "text": "bref,",
-   "start": 2.728,
-   "end": 3.123
+   "start": 2.987,
+   "end": 3.36
   },
   {
    "text": "en",
-   "start": 3.146,
-   "end": 3.32
+   "start": 3.44,
+   "end": 3.52
   },
   {
    "text": "Afrique :",
-   "start": 3.39,
-   "end": 3.796
+   "start": 3.6,
+   "end": 3.92
   },
   {
    "text": "voici",
-   "start": 3.913,
-   "end": 4.156
+   "start": 4.4,
+   "end": 4.72
   },
   {
    "text": "un",
-   "start": 4.203,
-   "end": 4.249
+   "start": 4.76,
+   "end": 4.8
   },
   {
    "text": "business",
-   "start": 4.284,
-   "end": 4.609
+   "start": 4.88,
+   "end": 5.2
   },
   {
    "text": "que",
-   "start": 4.656,
-   "end": 4.725
+   "start": 5.24,
+   "end": 5.28
   },
   {
    "text": "tu",
-   "start": 4.772,
-   "end": 4.853
+   "start": 5.36,
+   "end": 5.44
   },
   {
    "text": "peux",
-   "start": 4.888,
-   "end": 5.004
+   "start": 5.48,
+   "end": 5.6
   },
   {
    "text": "faire",
-   "start": 5.027,
-   "end": 5.19
+   "start": 5.64,
+   "end": 5.84
   },
   {
    "text": "avec",
-   "start": 5.213,
-   "end": 5.41
+   "start": 5.96,
+   "end": 6.08
   },
   {
    "text": "Claude",
-   "start": 5.433,
-   "end": 5.747
+   "start": 6.16,
+   "end": 6.56
   },
   {
    "text": "et",
-   "start": 5.817,
-   "end": 5.909
+   "start": 6.6,
+   "end": 6.64
   },
   {
    "text": "le",
-   "start": 5.956,
-   "end": 6.026
+   "start": 6.68,
+   "end": 6.72
   },
   {
    "text": "Play",
-   "start": 6.06,
-   "end": 6.211
+   "start": 6.8,
+   "end": 6.96
   },
   {
    "text": "Store.",
-   "start": 6.235,
-   "end": 6.594
+   "start": 7.04,
+   "end": 7.6
   },
   {
    "text": "D'abord,",
-   "start": 6.629,
-   "end": 7.105
+   "start": 7.893,
+   "end": 8.48
   },
   {
    "text": "va",
-   "start": 7.163,
-   "end": 7.338
+   "start": 8.56,
+   "end": 8.64
   },
   {
    "text": "sur",
-   "start": 7.372,
-   "end": 7.488
+   "start": 8.72,
+   "end": 8.8
   },
   {
    "text": "le",
-   "start": 7.523,
-   "end": 7.593
+   "start": 8.84,
+   "end": 8.88
   },
   {
    "text": "Play",
-   "start": 7.628,
-   "end": 7.755
+   "start": 8.96,
+   "end": 9.04
   },
   {
    "text": "Store,",
-   "start": 7.779,
-   "end": 8.115
+   "start": 9.12,
+   "end": 9.68
   },
   {
    "text": "et",
-   "start": 8.139,
-   "end": 8.243
+   "start": 9.76,
+   "end": 9.84
   },
   {
    "text": "cherche",
-   "start": 8.278,
-   "end": 8.58
+   "start": 9.96,
+   "end": 10.08
   },
   {
    "text": "un",
-   "start": 8.603,
-   "end": 8.649
+   "start": 10.12,
+   "end": 10.16
   },
   {
    "text": "jeu",
-   "start": 8.707,
-   "end": 8.824
+   "start": 10.24,
+   "end": 10.4
   },
   {
    "text": "populaire,",
-   "start": 8.87,
-   "end": 9.404
+   "start": 10.52,
+   "end": 11.12
   },
   {
    "text": "avec",
-   "start": 9.451,
-   "end": 9.729
+   "start": 11.28,
+   "end": 11.44
   },
   {
    "text": "beaucoup",
-   "start": 9.799,
-   "end": 10.066
+   "start": 11.52,
+   "end": 11.76
   },
   {
    "text": "de",
-   "start": 10.101,
-   "end": 10.17
+   "start": 11.8,
+   "end": 11.84
   },
   {
    "text": "téléchargements.",
-   "start": 10.217,
-   "end": 10.925
+   "start": 11.92,
+   "end": 12.96
   },
   {
    "text": "Celui-ci,",
-   "start": 10.948,
-   "end": 11.39
+   "start": 13.097,
+   "end": 13.44
   },
   {
    "text": "par",
-   "start": 11.413,
-   "end": 11.541
+   "start": 13.48,
+   "end": 13.52
   },
   {
    "text": "exemple :",
-   "start": 11.575,
-   "end": 11.993
+   "start": 13.6,
+   "end": 13.92
   },
   {
    "text": "plus",
-   "start": 12.075,
-   "end": 12.284
+   "start": 14.347,
+   "end": 14.4
   },
   {
    "text": "de",
-   "start": 12.318,
-   "end": 12.4
+   "start": 14.48,
+   "end": 14.72
   },
   {
    "text": "cinq",
-   "start": 12.458,
-   "end": 12.655
+   "start": 14.76,
+   "end": 14.96
   },
   {
    "text": "cent",
-   "start": 12.702,
-   "end": 12.818
+   "start": 15.04,
+   "end": 15.2
   },
   {
    "text": "mille",
-   "start": 12.841,
-   "end": 13.027
+   "start": 15.36,
+   "end": 15.52
   },
   {
-   "text": "téléchargements.",
-   "start": 13.061,
-   "end": 13.804
+   "text": "téléchargements !",
+   "start": 15.6,
+   "end": 16.32
   },
   {
    "text": "Fais",
-   "start": 13.851,
-   "end": 14.013
+   "start": 16.853,
+   "end": 16.96
   },
   {
    "text": "une",
-   "start": 14.095,
-   "end": 14.176
+   "start": 17,
+   "end": 17.04
   },
   {
    "text": "capture",
-   "start": 14.199,
-   "end": 14.513
+   "start": 17.2,
+   "end": 17.36
   },
   {
    "text": "d'écran",
-   "start": 14.548,
-   "end": 14.826
+   "start": 17.4,
+   "end": 17.68
   },
   {
    "text": "du",
-   "start": 14.873,
-   "end": 14.954
+   "start": 17.76,
+   "end": 17.84
   },
   {
    "text": "jeu.",
-   "start": 14.989,
-   "end": 15.221
+   "start": 17.88,
+   "end": 18.48
   },
   {
    "text": "Ensuite,",
-   "start": 15.244,
-   "end": 15.755
+   "start": 18.56,
+   "end": 19.12
   },
   {
    "text": "va",
-   "start": 15.813,
-   "end": 15.929
+   "start": 19.2,
+   "end": 19.28
   },
   {
    "text": "sur",
-   "start": 15.987,
-   "end": 16.138
+   "start": 19.36,
+   "end": 19.52
   },
   {
    "text": "Claude,",
-   "start": 16.185,
-   "end": 16.521
+   "start": 19.6,
+   "end": 20.16
   },
   {
    "text": "envoie",
-   "start": 16.544,
-   "end": 16.846
+   "start": 20.28,
+   "end": 20.48
   },
   {
    "text": "la",
-   "start": 16.87,
-   "end": 16.928
+   "start": 20.52,
+   "end": 20.56
   },
   {
    "text": "capture,",
-   "start": 16.986,
-   "end": 17.415
+   "start": 20.64,
+   "end": 21.28
   },
   {
    "text": "et",
-   "start": 17.438,
-   "end": 17.566
+   "start": 21.32,
+   "end": 21.36
   },
   {
    "text": "demande-lui :",
-   "start": 17.624,
-   "end": 18.054
+   "start": 21.52,
+   "end": 21.92
   },
   {
    "text": "crée-moi",
-   "start": 18.158,
-   "end": 18.518
+   "start": 22.46,
+   "end": 22.8
   },
   {
    "text": "ce",
-   "start": 18.553,
-   "end": 18.657
+   "start": 22.88,
+   "end": 23.04
   },
   {
    "text": "jeu",
-   "start": 18.727,
-   "end": 18.89
+   "start": 23.12,
+   "end": 23.44
   },
   {
    "text": "en",
-   "start": 18.959,
-   "end": 19.052
+   "start": 23.56,
+   "end": 23.68
   },
   {
    "text": "HTML5,",
-   "start": 19.11,
-   "end": 19.877
+   "start": 23.76,
+   "end": 25.12
   },
   {
    "text": "pour",
-   "start": 19.911,
-   "end": 20.051
+   "start": 25.16,
+   "end": 25.2
   },
   {
    "text": "le",
-   "start": 20.097,
-   "end": 20.167
+   "start": 25.28,
+   "end": 25.36
   },
   {
    "text": "monétiser",
-   "start": 20.213,
-   "end": 20.712
+   "start": 25.44,
+   "end": 26.08
   },
   {
    "text": "avec",
-   "start": 20.747,
-   "end": 20.968
+   "start": 26.16,
+   "end": 26.4
   },
   {
    "text": "Google",
-   "start": 21.003,
-   "end": 21.339
+   "start": 26.48,
+   "end": 26.72
   },
   {
    "text": "AdSense.",
-   "start": 21.363,
-   "end": 21.838
+   "start": 26.8,
+   "end": 27.68
   },
   {
    "text": "Claude",
-   "start": 21.908,
-   "end": 22.198
+   "start": 28.48,
+   "end": 28.8
   },
   {
    "text": "code",
-   "start": 22.233,
-   "end": 22.395
+   "start": 28.96,
+   "end": 29.2
   },
   {
    "text": "le",
-   "start": 22.419,
-   "end": 22.5
+   "start": 29.24,
+   "end": 29.28
   },
   {
    "text": "jeu",
-   "start": 22.546,
-   "end": 22.663
+   "start": 29.36,
+   "end": 29.44
   },
   {
    "text": "pour",
-   "start": 22.709,
-   "end": 22.813
+   "start": 29.52,
+   "end": 29.6
   },
   {
    "text": "toi.",
-   "start": 22.848,
-   "end": 23.057
+   "start": 29.68,
+   "end": 29.92
   },
   {
    "text": "Pas",
-   "start": 23.092,
-   "end": 23.231
+   "start": 30.377,
+   "end": 30.4
   },
   {
    "text": "besoin",
-   "start": 23.278,
-   "end": 23.545
+   "start": 30.48,
+   "end": 30.64
   },
   {
    "text": "de",
-   "start": 23.58,
-   "end": 23.638
+   "start": 30.68,
+   "end": 30.72
   },
   {
    "text": "savoir",
-   "start": 23.684,
-   "end": 23.951
+   "start": 30.8,
+   "end": 31.04
   },
   {
    "text": "coder.",
-   "start": 24.009,
-   "end": 24.323
+   "start": 31.12,
+   "end": 31.52
   },
   {
    "text": "Tu",
-   "start": 24.346,
-   "end": 24.474
+   "start": 31.907,
+   "end": 31.92
   },
   {
    "text": "mets",
-   "start": 24.532,
-   "end": 24.648
+   "start": 32,
+   "end": 32.08
   },
   {
    "text": "le",
-   "start": 24.671,
-   "end": 24.741
+   "start": 32.12,
+   "end": 32.16
   },
   {
    "text": "jeu",
-   "start": 24.799,
-   "end": 24.915
+   "start": 32.24,
+   "end": 32.32
   },
   {
    "text": "en",
-   "start": 24.961,
-   "end": 25.008
+   "start": 32.4,
+   "end": 32.48
   },
   {
    "text": "ligne,",
-   "start": 25.031,
-   "end": 25.31
+   "start": 32.6,
+   "end": 32.96
   },
   {
    "text": "tu",
-   "start": 25.344,
-   "end": 25.461
+   "start": 33,
+   "end": 33.04
   },
   {
    "text": "le",
-   "start": 25.53,
-   "end": 25.611
+   "start": 33.08,
+   "end": 33.12
   },
   {
    "text": "connectes",
-   "start": 25.658,
-   "end": 26.029
+   "start": 33.2,
+   "end": 33.48
   },
   {
    "text": "à",
-   "start": 26.076,
-   "end": 26.099
+   "start": 33.52,
+   "end": 33.56
   },
   {
    "text": "Google",
-   "start": 26.157,
-   "end": 26.482
+   "start": 33.6,
+   "end": 33.84
   },
   {
    "text": "AdSense,",
-   "start": 26.505,
-   "end": 26.923
+   "start": 33.92,
+   "end": 34.64
   },
   {
    "text": "et",
-   "start": 26.981,
-   "end": 27.086
+   "start": 34.76,
+   "end": 34.88
   },
   {
    "text": "chaque",
-   "start": 27.121,
-   "end": 27.341
+   "start": 34.92,
+   "end": 35.12
   },
   {
    "text": "fois",
-   "start": 27.365,
-   "end": 27.469
+   "start": 35.2,
+   "end": 35.28
   },
   {
    "text": "que",
-   "start": 27.492,
-   "end": 27.585
+   "start": 35.36,
+   "end": 35.44
   },
   {
    "text": "des",
-   "start": 27.632,
-   "end": 27.724
+   "start": 35.52,
+   "end": 35.6
   },
   {
    "text": "gens",
-   "start": 27.759,
-   "end": 27.922
+   "start": 35.68,
+   "end": 35.84
   },
   {
-   "text": "jouent,",
-   "start": 27.945,
-   "end": 28.189
+   "text": "jouent…",
+   "start": 35.92,
+   "end": 36.56
   },
   {
    "text": "les",
-   "start": 28.224,
-   "end": 28.317
+   "start": 36.766,
+   "end": 36.8
   },
   {
    "text": "pubs",
-   "start": 28.351,
-   "end": 28.56
+   "start": 36.92,
+   "end": 37.08
   },
   {
    "text": "te",
-   "start": 28.584,
-   "end": 28.653
+   "start": 37.12,
+   "end": 37.2
   },
   {
    "text": "rapportent",
-   "start": 28.7,
-   "end": 29.141
+   "start": 37.32,
+   "end": 37.6
   },
   {
    "text": "de",
-   "start": 29.164,
-   "end": 29.222
+   "start": 37.68,
+   "end": 37.72
   },
   {
    "text": "l'argent.",
-   "start": 29.269,
-   "end": 29.663
+   "start": 37.76,
+   "end": 38.24
   },
   {
    "text": "Si",
-   "start": 29.698,
-   "end": 29.861
+   "start": 38.78,
+   "end": 38.8
   },
   {
    "text": "tu",
-   "start": 29.919,
-   "end": 30.023
+   "start": 38.88,
+   "end": 38.92
   },
   {
    "text": "veux",
-   "start": 30.081,
-   "end": 30.197
+   "start": 38.96,
+   "end": 39.04
   },
   {
    "text": "la",
-   "start": 30.232,
-   "end": 30.29
+   "start": 39.12,
+   "end": 39.2
   },
   {
    "text": "formation",
-   "start": 30.348,
-   "end": 30.743
+   "start": 39.4,
+   "end": 39.6
   },
   {
    "text": "gratuite,",
-   "start": 30.79,
-   "end": 31.254
+   "start": 39.68,
+   "end": 40.32
   },
   {
    "text": "tape",
-   "start": 31.3,
-   "end": 31.59
+   "start": 40.44,
+   "end": 40.56
   },
   {
    "text": "« jeu »",
-   "start": 31.846,
-   "end": 31.974
+   "start": 40.933,
+   "end": 41.12
   },
   {
    "text": "en",
-   "start": 32.09,
-   "end": 32.229
+   "start": 41.333,
+   "end": 41.36
   },
   {
    "text": "commentaire,",
-   "start": 32.287,
-   "end": 32.833
+   "start": 41.44,
+   "end": 42.24
   },
   {
    "text": "et",
-   "start": 32.868,
-   "end": 33.007
+   "start": 42.32,
+   "end": 42.4
   },
   {
    "text": "va",
-   "start": 33.053,
-   "end": 33.181
+   "start": 42.48,
+   "end": 42.56
   },
   {
    "text": "sur",
-   "start": 33.227,
-   "end": 33.367
+   "start": 42.64,
+   "end": 42.72
   },
   {
    "text": "djoss.me",
-   "start": 33.402,
-   "end": 34.11
+   "start": 42.8,
+   "end": 43.52
   },
   {
    "text": "pour",
-   "start": 34.179,
-   "end": 34.342
+   "start": 43.6,
+   "end": 43.68
   },
   {
    "text": "rejoindre",
-   "start": 34.412,
-   "end": 34.853
+   "start": 43.76,
+   "end": 44.08
   },
   {
    "text": "la",
-   "start": 34.888,
-   "end": 34.946
+   "start": 44.12,
+   "end": 44.16
   },
   {
    "text": "formation",
-   "start": 35.004,
-   "end": 35.399
+   "start": 44.24,
+   "end": 44.64
   },
   {
    "text": "sur",
-   "start": 35.433,
-   "end": 35.561
+   "start": 44.72,
+   "end": 44.8
   },
   {
-   "text": "WhatsApp.",
-   "start": 35.619,
-   "end": 36.316
+   "text": "WhatsApp !",
+   "start": 44.88,
+   "end": 45.36
   }
  ]
 }

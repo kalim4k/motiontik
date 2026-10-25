@@ -21,6 +21,7 @@ import { GameBuildVente } from "./videos/game-build-vente";
 import { KoffiAma } from "./videos/koffi-ama";
 import { PerdreJeu } from "./videos/perdre-jeu";
 import { MaxSam } from "./videos/max-sam";
+import { DjossJeu } from "./videos/djoss-jeu";
 
 // Une entrée par vidéo : slug (= dossier dans videos/ et public/) + composant
 // `extra` = secondes ajoutées à la durée de la voix (pauses insérées).
@@ -40,6 +41,7 @@ const videos: { slug: string; component: React.FC<VideoProps>; extra?: number }[
   { slug: "chaine-whatsapp", component: ChaineWhatsapp },
   { slug: "koffi-ama", component: KoffiAma },
   { slug: "perdre-jeu", component: PerdreJeu },
+  { slug: "djoss-jeu", component: DjossJeu },
 ];
 
 export const Root: React.FC = () => (
